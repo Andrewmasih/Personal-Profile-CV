@@ -1,0 +1,247 @@
+
+
+
+#nav {
+    background-color: white;
+    height: 75px;
+    width: 100%;  
+    position: fixed; 
+    z-index: 100;    
+}
+
+#nav a {    
+    font-size: 20px;
+    color: rgb(114, 175, 199);
+    font-weight: 400; 
+
+}
+
+.navbutton {
+    float: right;
+    margin-top: 20px;
+    
+}
+
+
+#nav li {
+    display: inline; 
+    letter-spacing: 2px;
+    margin-right: 20px;
+        
+  
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+#my-name {
+    height: 450px;
+    background-color: white;
+   
+}
+
+#below-the-nav {
+    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/londoncity-birdseye-view_edited3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+#names {
+    font-size: 40px;
+    padding-top: 160px;
+    margin-left: 40px;
+    color: rgb(214, 142, 7);
+    font-weight: 325;
+}
+
+#title {    
+    font-size: 30px;
+    margin-left: 40px;
+    color: rgb(214, 142, 7);
+    font-weight: 315;
+}
+
+#about-me {
+    height: 450px;
+    background-color: white;
+}
+
+.about-me {
+    margin-left: 30px;
+    color: rgb(5, 5, 153);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 330;
+}
+
+#thinking-man {
+    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/thinking-man-768x508.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#overflow-text {
+    height: 300px;
+    overflow-y: scroll;
+    color: rgb(136, 136, 248);
+    font-weight: 200;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#techskills-box {
+    background-color: rgb(245, 241, 241);
+    height: 250px;
+    padding-top: 17.5px;
+    padding-right: 50px;
+    
+    
+}
+
+#skills-profile-button {
+    color: rgb(68, 67, 67);
+    margin-left: 30px;
+    padding-top: 30px;
+    font-weight: 330;
+}
+
+.col-sm-2 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#portfolio-section {
+    background-color: rgb(61, 61, 87);
+    height: 150px;
+}
+
+#portfolio-button {
+    color: #ffffff;
+    padding-left: 30px;
+    height: 125px;
+    padding-top: 30px;
+    font-weight: 330;
+}
+
+#work-experience-column {
+    background-color: white;
+    height: 450px;
+
+}
+
+.work-experience {
+    color: rgb(214, 142, 7);
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-weight: 330;
+
+} 
+
+#work-experience-column p {
+    font-weight: 200; 
+    font-size: 15px;
+    padding-left: 60px;
+    color: rgb(214, 142, 7);
+}
+
+#work-experience-column h4 {
+    color: rgb(68, 67, 67);
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 60px;
+    padding-top: 7.5px;
+}
+
+#working-men {
+    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/workingman-blue_edited.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#contactme-section {
+   background-color: white;
+   height: 450px;
+   
+}
+
+#telephone-box {
+    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/mail-and-phone%20red%20final.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.contact-me {
+    color: rgb(5, 5, 153);
+    font-weight: 330;
+    margin-left: 30px;
+    margin-top: 30px
+}
+
+form {
+    margin-left: 90px;
+    margin-top: 60px;
+    
+}
+
+input {
+    color: blue;
+
+
+}
+
+
+
+#message {
+    height: 100px;
+    width: 300px;
+    padding-bottom: 75px;
+}
+
+#footer {
+    background-color: #ffffff;
+    height: 20px;
+}
+
+.social-networks {
+    text-align: center;
+    padding-top: 30px;
+   
+}
+
+.social-networks li {
+  display: inline;
+  margin-left:60px;
+  
+
+
+}
+
+#copyright {
+    float: right;
+    color: rgb(214, 142, 7);
+   
+}
+
+
+
+
+  
+ 
+
+   
+   
+
+
+
+
