@@ -44,7 +44,7 @@ a:hover{
 }
 
 #below-the-nav {
-    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/londoncity-birdseye-view_edited3.jpg");
+    background-image: url("../img/londoncity-birdseye-view_edited3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 120%;
 }
@@ -77,8 +77,8 @@ a:hover{
     font-weight: 330;
 }
 
-#thinking-man {
-    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/thinking-man-768x508.jpg");
+#thinking-man {    
+    background-image: url("../img/thinking-man-768x508.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -96,9 +96,12 @@ a:hover{
     background-color: rgb(245, 241, 241);
     height: 250px;
     padding-top: 17.5px;
-    padding-right: 50px;
-    
-    
+    padding-right: 50px;    
+}
+
+#techskills-box p {
+    margin-bottom: auto;
+    font-weight: 200;
 }
 
 #skills-profile-button {
@@ -116,6 +119,7 @@ a:hover{
     text-transform: uppercase;
     text-align: center;
     padding-top: 20px;
+    
 }
 
 #portfolio-section {
@@ -162,7 +166,7 @@ a:hover{
 }
 
 #working-men {
-    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/workingman-blue_edited.jpg");
+    background-image: url("../img/workingman-blue_edited.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -175,7 +179,7 @@ a:hover{
 }
 
 #telephone-box {
-    background-image: url("https://f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/mini-browser/workspace/Milestone-WebProject/assets/img/mail-and-phone%20red%20final.jpg");
+    background-image: url("../img/mail-and-phone%20red%20final.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
