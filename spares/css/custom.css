@@ -1,42 +1,100 @@
 
 
 
-#nav {
-    background-color: white;
-    height: 75px;
-    width: 100%;  
-    position: fixed; 
-    z-index: 100;    
-}
 
-#nav a {    
-    font-size: 20px;
-    color: rgb(114, 175, 199);
-    font-weight: 400; 
 
-}
-
-.navbutton {
+#row1 {    
+    width: 33%;
     float: right;
-    margin-top: 20px;
+}
+
+
+
+#nav {   
+    background-color: rgb(255, 255, 255, 0.4);  
+    position: fixed;
+    z-index: 105; 
     
 }
 
 
-#nav li {
-    display: inline; 
-    letter-spacing: 2px;
-    margin-right: 20px;
+
+#nav a {    
+    color: rgb(116, 115, 115);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing:3px; 
+    
+}    
+
+
+
+#nav li {    
+    list-style: none;
+
+    
+}
+
+
+.navbutton {
+    padding-left: 2px;
+    margin-top: 20px;
+    
+
+}
+
+
+
+
+@media (min-width: 992px) {
+    #nav {
+        background-color: white;
+        height: 75px;
+        width: 100%;  
+        position: fixed; 
+        z-index: 100;    
+    }
+
+    #nav a {    
+        font-size: 20px;
+        color: rgb(114, 175, 199);
+        font-weight: 400; 
+
+    }
+
+    .navbutton {
+        float: right;
+        margin-top: 20px;
+    
+    }
+
+
+    #nav li {
+        display: inline; 
+        letter-spacing: 2px;
+        margin-right: 20px;
         
   
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    
+
 }
 
 
 
-a:hover{
-    text-decoration: none;
-    color: black;
-}
+
+
+
+
+
+
 
 
 
@@ -46,34 +104,82 @@ a:hover{
 #my-name {
     height: 450px;
     background-color: white;
+    
    
 }
 
-#below-the-nav {
-    background-image: url("../img/londoncity-birdseye-view_edited3.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 120%;
-}
+
 
 #names {
     font-size: 40px;
-    padding-top: 160px;
+    padding-top: 145px;
     margin-left: 40px;
     color: rgb(214, 142, 7);
     font-weight: 325;
+    
+    
 }
 
-#title {    
-    font-size: 30px;
-    margin-left: 40px;
-    color: rgb(214, 142, 7);
-    font-weight: 315;
+#below-the-nav {
+    height: 225px;
+    background-image: url("../img/londonbridge_sunset.png");
+    background-repeat: no-repeat;  
+    background-color: rgb(255, 255, 255);
+    
+
+    
 }
 
-#about-me {
-    height: 450px;
-    background-color: white;
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+   #below-the-nav {
+        background-image: url("../img/londoncity-birdseye-view_edited3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+        height: 450px;
+      
+    }   
+
+
+
+
+
+
+    #title {    
+        font-size: 30px;
+        margin-left: 40px;
+        color: rgb(214, 142, 7);
+        font-weight: 315;
+        margin-bottom: 100px;
+    }
+
+
+
+    #about-me {
+        height: 450px;
+        background-color: white;
+        margin-top: 90px;
+    }
+    
+    #about-me {
+        height: 450px;
+        background-color: white;
+    
+    }
+
+
 }
+
+
+
+
 
 .about-me {
     margin-left: 30px;
@@ -83,11 +189,18 @@ a:hover{
     font-weight: 330;
 }
 
-#thinking-man {    
-    background-image: url("../img/thinking-man-768x508.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+@media screen and (min-width: 992px) {
+
+    #thinking-man {    
+        background-image: url("../img/thinking-man-768x508.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+
 }
+
+
 
 #overflow-text {
     height: 300px;
