@@ -1,8 +1,6 @@
 
 
 
-
-
 #row1 {    
     width: 33%;
     float: right;
@@ -14,7 +12,7 @@
     background-color: rgb(255, 255, 255, 0.4);  
     position: fixed;
     z-index: 105; 
-    
+   
 }
 
 
@@ -24,7 +22,7 @@
     font-size: 10px;
     font-weight: 400;
     letter-spacing:3px; 
-    
+  
 }    
 
 
@@ -45,14 +43,389 @@
 
 
 
+#names {
+    font-size: 40px;
+    padding-top: 145px;
+    margin-left: 40px;
+    color: rgb(214, 142, 7);
+    font-weight: 325;
+    
+}   
 
-@media (min-width: 992px) {
+
+
+#title {    
+    font-size: 30px;
+    margin-left: 40px;
+    color: rgb(214, 142, 7);
+    font-weight: 315;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+
+
+#below-the-nav {
+    height: 225px;
+    background-image: url("../img/londonbridge_sunset.png");
+    background-repeat: no-repeat;  
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    opacity: 0.8;
+
+    
+}
+
+
+
+
+
+.about-me {
+    margin-left: 30px;
+    color: rgb(214, 142, 7);
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-weight: 330;
+    
+
+}
+
+
+#overflow-text {
+    height: 300px;
+    overflow-y: scroll;
+    color: rgb(218, 167, 73);
+    font-weight: 200;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+
+
+
+
+
+
+#techskills-box {
+    
+    background-color: white;
+    height: 900px;
+    padding-bottom: 45px;
+      
+}    
+
+    
+#techskills-box p {
+    
+    font-weight: 200;
+
+}
+
+#skills-profile-button {
+    color: rgb(68, 67, 67);
+    margin-left: 30px;
+    padding-top: 30px;
+    font-weight: 330;
+}
+
+/*
+
+.col-lg-2 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+*/
+
+#html5_css3 {
+    background-color: rgb(245, 241, 241);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    height:150px;
+   
+   
+    
+}
+
+
+#javascript {
+    background-color: rgb(245, 241, 241);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    height:150px;
+    
+
+}
+
+#python {
+    background-color: rgb(245, 241, 241);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    height:150px;
+    
+    
+
+
+}
+
+
+#sql {
+    background-color: rgb(245, 241, 241);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    height:150px;
+
+
+}
+
+
+
+
+
+.timeofex {
+    font-size: 12.5px;
+    text-transform: capitalize;
+}
+
+
+#portfolio-section {
+    background-color: rgb(61, 61, 87);
+    height: 150px;
+
+}
+
+
+
+#portfolio-button {
+    color: #ffffff;
+    padding-left: 30px;
+    height: 125px;
+    padding-top: 30px;
+    font-weight: 330;
+
+}
+
+
+fa fa-github {
+    color: red;
+
+}
+
+fa fa-linkedin-in{
+    color: green; 
+
+
+}
+
+#work-experience-column {
+    background-color: white;
+    height: 450px;
+
+}
+
+.work-experience {
+    color: rgb(214, 142, 7);
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-weight: 330;
+
+} 
+
+#work-experience-column p {
+    font-weight: 200; 
+    font-size: 15px;
+    padding-left: 60px;
+    color: rgb(214, 142, 7);
+
+}
+
+
+
+#work-experience-column h4 {
+    color: rgb(68, 67, 67);
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 60px;
+    padding-top: 7.5px;
+
+}
+
+
+#contactme-section {
+        
+    height: 450px;
+    background-image: url("../img/mail-and-phone%20red%20final.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.7;
+    z-index: 95;
+    text-shadow: 0px 0px 10px #000000;
+   
+}
+
+
+.contact-me {
+    color: white;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 30px
+
+}
+
+
+
+#name {
+    width: 250px;  
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;   
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    z-index: 96;
+
+}
+
+#name:focus {
+    width: 500px;
+    background-color: rgb(229, 229, 240);
+  
+}
+
+#phone {
+    width: 250px;  
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;   
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+}
+
+#phone:focus {
+    width: 500px;
+    background-color: rgb(229, 229, 240);
+
+}
+
+
+#email {
+    width: 250px;  
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;   
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+}   
+
+#email:focus {
+    width: 500px;
+    background-color: rgb(229, 229, 240);
+
+}
+
+
+#message {
+    width: 250px;  
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;  
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+}
+
+#message:focus {
+    width: 500px;
+    background-color: rgb(229, 229, 240);
+    height: 80px;
+
+}
+
+input {
+    color: blue;
+    margin-top: 10px;
+    z-index: 108;
+
+}   
+
+
+form {
+    margin-left: 90px;
+    margin-top: 60px;
+    z-index: 105;
+    
+}   
+
+
+#footer {
+    background-color: #ffffff;
+    height: 20px;
+
+}
+
+.social-networks {
+    text-align: center;
+    padding-top: 30px;
+   
+}
+
+.social-networks li {
+    display: inline;
+    margin-left:60px;
+    font-size: 20px;
+  
+
+
+}
+
+
+#copyright {
+    float: right;
+    color: rgb(214, 142, 7);
+    font-size: 10px;    
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+
+
+
     #nav {
         background-color: white;
         height: 75px;
         width: 100%;  
         position: fixed; 
-        z-index: 100;    
+        z-index: 100;  
+
     }
 
     #nav a {    
@@ -85,67 +458,41 @@
     
     
 
-}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-#my-name {
-    height: 450px;
-    background-color: white;
+    #my-name {
+        height: 450px;
+        background-color: rgb(255, 255, 255);
     
    
-}
+    }
 
 
 
-#names {
-    font-size: 40px;
-    padding-top: 145px;
-    margin-left: 40px;
-    color: rgb(214, 142, 7);
-    font-weight: 325;
-    
-    
-}
-
-#below-the-nav {
-    height: 225px;
-    background-image: url("../img/londonbridge_sunset.png");
-    background-repeat: no-repeat;  
-    background-color: rgb(255, 255, 255);
-    
-
-    
-}
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 992px) {
-   #below-the-nav {
+    #below-the-nav {
         background-image: url("../img/londoncity-birdseye-view_edited3.jpg");
         background-repeat: no-repeat;
         background-size: 100% 120%;
         height: 450px;
-      
-    }   
+        opacity: 1;
+
+    }
+
+
+     
+
+
+    #names {
+        font-size: 40px;
+        padding-top: 160px;
+        margin-left: 40px;
+        color: rgb(214, 142, 7);
+        font-weight: 325;
+    }
+
+    
+
 
 
 
@@ -157,39 +504,30 @@
         margin-left: 40px;
         color: rgb(214, 142, 7);
         font-weight: 315;
-        margin-bottom: 100px;
     }
+
+    
 
 
 
     #about-me {
         height: 450px;
         background-color: white;
-        margin-top: 90px;
-    }
-    
-    #about-me {
-        height: 450px;
-        background-color: white;
-    
     }
 
 
-}
+
+    .about-me {
+        margin-left: 30px;
+        color: rgb(5, 5, 153);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: 330;
+
+    }
 
 
 
-
-
-.about-me {
-    margin-left: 30px;
-    color: rgb(5, 5, 153);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: 330;
-}
-
-@media screen and (min-width: 992px) {
 
     #thinking-man {    
         background-image: url("../img/thinking-man-768x508.jpg");
@@ -198,229 +536,312 @@
     }
 
 
-}
 
 
 
-#overflow-text {
-    height: 300px;
-    overflow-y: scroll;
-    color: rgb(136, 136, 248);
-    font-weight: 200;
-    margin-left: 30px;
-    margin-right: 30px;
-}
 
-#techskills-box {
-    background-color: rgb(245, 241, 241);
-    height: 250px;
-    padding-top: 17.5px;
-    padding-right: 50px;    
-}
+    #overflow-text {
+        height: 300px;
+        overflow-y: scroll;
+        color: rgb(136, 136, 248);
+        font-weight: 200;
+        margin-left: 30px;
+        margin-right: 30px;
 
-#techskills-box p {
-    margin-bottom: auto;
-    font-weight: 200;
-}
 
-#skills-profile-button {
-    color: rgb(68, 67, 67);
-    margin-left: 30px;
-    padding-top: 30px;
-    font-weight: 330;
-}
+    }
 
-.col-sm-2 {
-    background-color: white;
-    height: 100px;
-    width: 100px;
-    margin-top: 50px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 20px;
+
+
+    #techskills-box {
+        background-color: rgb(245, 241, 241);
+        height: 250px;
+        padding-top: 17.5px;
+        padding-right: 50px;    
+    }
+
+
+
+
+    #techskills-box p {
+        margin-bottom: auto;
+        font-weight: 200;
+    }
+
+
+
+
+    #skills-profile-button {
+        color: rgb(68, 67, 67);
+        margin-left: 30px;
+        padding-top: 30px;
+        font-weight: 330;
+
+    }
+
+
+
+    .col-lg-2 {
+        background-color: white;
+        
+        width: 100px;
+        margin-top: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        
     
-}
+    }
 
-.timeofex {
-    font-size: 12.5px;
-    text-transform: capitalize;
-}
-
-#portfolio-section {
-    background-color: rgb(61, 61, 87);
-    height: 150px;
-}
-
-#portfolio-button {
-    color: #ffffff;
-    padding-left: 30px;
-    height: 125px;
-    padding-top: 30px;
-    font-weight: 330;
-}
-
-#work-experience-column {
-    background-color: white;
-    height: 450px;
-
-}
-
-.work-experience {
-    color: rgb(214, 142, 7);
-    padding-top: 30px;
-    padding-left: 30px;
-    margin-bottom: 30px;
-    font-weight: 330;
-
-} 
-
-#work-experience-column p {
-    font-weight: 200; 
-    font-size: 15px;
-    padding-left: 60px;
-    color: rgb(214, 142, 7);
-}
-
-#work-experience-column h4 {
-    color: rgb(68, 67, 67);
-    font-size: 20px;
-    font-weight: 200;
-    padding-left: 60px;
-    padding-top: 7.5px;
-}
-
-#working-men {
-    background-image: url("../img/workingman-blue_edited.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+    #html5_css3 {
+        background-color: white;
+        height:125px;   
+    }
 
 
-#contactme-section {
-   background-color: white;
-   height: 450px;
-   
-}
+    #javascript {
+        background-color: white;
+        height:125px; 
 
-#telephone-box {
-    background-image: url("../img/mail-and-phone%20red%20final.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    }
 
-}
-
-.contact-me {
-    color: rgb(5, 5, 153);
-    font-weight: 330;
-    margin-left: 30px;
-    margin-top: 30px
-}
-
-
-
-#name {
-  width: 250px;  
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 2px;
-  font-size: 16px;   
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-}
-
-#name:focus {
-  width: 500px;
-  background-color: rgb(229, 229, 240);
-  
-}
-
-#phone {
-  width: 250px;  
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 2px;
-  font-size: 16px;   
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-}
-
-#phone:focus {
-    width: 500px;
-    background-color: rgb(229, 229, 240);
-}
-
-
-#email {
-  width: 250px;  
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 2px;
-  font-size: 16px;   
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-}
-
-#email:focus {
-    width: 500px;
-    background-color: rgb(229, 229, 240);
-}
-
-
-#message {
-  width: 250px;  
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 2px;
-  font-size: 16px;  
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-}
-
-#message:focus {
-  width: 500px;
-  background-color: rgb(229, 229, 240);
-  height: 80px;
-}
-
-input {
-    color: blue;
-    margin-top: 10px;
-}   
-
-
-form {
-    margin-left: 90px;
-    margin-top: 60px;
+    #python {
+        background-color: white;
+        height:125px; 
     
-}
+    
 
 
-#footer {
-    background-color: #ffffff;
-    height: 20px;
-}
+    }
 
-.social-networks {
-    text-align: center;
-    padding-top: 30px;
+
+    #sql {
+        background-color: white;
+        height:125px; 
+
+
+    }
+
+
+    .timeofex {
+        font-size: 12.5px;
+        text-transform: capitalize;
+    
+    
+    
+    }
+
+
+
+    #portfolio-section {
+        background-color: rgb(61, 61, 87);
+        height: 150px;
+
+    }
+
+
+
+    #portfolio-button {
+        color: #ffffff;
+        padding-left: 30px;
+        height: 125px;
+        padding-top: 30px;
+        font-weight: 330;
+
+    }
+
+
+
+    #work-experience-column {
+        background-color: white;
+        height: 450px;
+
+    }
+
+    .work-experience {
+        color: rgb(214, 142, 7);
+        padding-top: 30px;
+        padding-left: 30px;
+        margin-bottom: 30px;
+        font-weight: 330;
+
+    } 
+
+    #work-experience-column p {
+        font-weight: 200; 
+        font-size: 15px;
+        padding-left: 60px;
+        color: rgb(214, 142, 7);
+
+    }
+
+    #work-experience-column h4 {
+        color: rgb(68, 67, 67);
+        font-size: 20px;
+        font-weight: 200;
+        padding-left: 60px;
+        padding-top: 7.5px;
+
+    }
+
+    #working-men {
+        background-image: url("../img/workingman-blue_edited.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+
+    #contactme-section {
+        background-color: white;
+        height: 450px;
    
-}
+    }
 
-.social-networks li {
-  display: inline;
-  margin-left:60px;
-  font-size: 20px;
+
+    .col-lg-6 {
+        background-color: white;
+    }
+
+
+
+
+    #telephone-box {
+        background-image: url("../img/mail-and-phone%20red%20final.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 2;
+
+    }
+
+    .contact-me {
+        color: rgb(5, 5, 153);
+        font-weight: 330;
+        margin-left: 30px;
+        margin-top: 30px
+
+    }
+
+
+
+    #name {
+        width: 250px;  
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 2px;
+        font-size: 16px;   
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+
+    }
+
+    #name:focus {
+        width: 500px;
+        background-color: rgb(229, 229, 240);
+  
+    }
+
+    #phone {
+        width: 250px;  
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 2px;
+        font-size: 16px;   
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+
+    }
+
+    #phone:focus {
+        width: 500px;
+        background-color: rgb(229, 229, 240);
+
+    }
+
+
+    #email {
+        width: 250px;  
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 2px;
+        font-size: 16px;   
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+
+    }   
+
+    #email:focus {
+        width: 500px;
+        background-color: rgb(229, 229, 240);
+
+    }
+
+
+    #message {
+        width: 250px;  
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 2px;
+        font-size: 16px;  
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+
+    }
+
+    #message:focus {
+        width: 500px;
+        background-color: rgb(229, 229, 240);
+        height: 80px;
+
+    }
+
+    input {
+        color: blue;
+        margin-top: 10px;
+
+    }   
+
+
+    form {
+        margin-left: 90px;
+        margin-top: 60px;
+    
+    }   
+
+
+    #footer {
+        background-color: #ffffff;
+        height: 20px;
+
+    }
+
+    .social-networks {
+        text-align: center;
+        padding-top: 30px;
+   
+    }
+
+    .social-networks li {
+        display: inline;
+        margin-left:60px;
+        font-size: 20px;
   
 
 
-}
+    }
 
-#copyright {
-    float: right;
-    color: rgb(214, 142, 7);
-    font-size: 10px;
-   
-}
+
+    #copyright {
+        float: right;
+        color: rgb(214, 142, 7);
+        font-size: 10px;    
+
+    }
+    
+  
+
+
+
+}     
 
 
 
