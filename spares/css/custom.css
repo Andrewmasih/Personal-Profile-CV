@@ -273,8 +273,8 @@ fa fa-linkedin-in{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0.7;
-    z-index: 95;
-    text-shadow: 0px 0px 10px #000000;
+    z-index: 150;
+    
    
 }
 
@@ -284,6 +284,7 @@ fa fa-linkedin-in{
     font-weight: 500;
     margin-left: 30px;
     margin-top: 30px
+    text-shadow: 0px 0px 10px #000000;
 
 }
 
@@ -417,21 +418,32 @@ form {
 
 @media screen and (min-width: 992px) {
 
-
-
-    #nav {
-        background-color: white;
-        height: 75px;
-        width: 100%;  
-        position: fixed; 
-        z-index: 100;  
+    
+    #row1 {        
+        height: 75px;        
+        position: fixed;
+        z-index: 200;
 
     }
+
+    
+    
+
+
+   
+    #nav {
+        background-color: white;
+        
+    }      
+
+    
+
 
     #nav a {    
         font-size: 20px;
         color: rgb(114, 175, 199);
-        font-weight: 400; 
+        font-weight: 100; 
+        
 
     }
 
@@ -457,7 +469,7 @@ form {
     
     
     
-
+    
 
 
 
@@ -475,7 +487,7 @@ form {
         background-repeat: no-repeat;
         background-size: 100% 120%;
         height: 450px;
-        opacity: 1;
+        opacity: 0.9;
 
     }
 
@@ -492,11 +504,6 @@ form {
     }
 
     
-
-
-
-
-
 
 
     #title {    
@@ -533,6 +540,7 @@ form {
         background-image: url("../img/thinking-man-768x508.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        opacity: 0.9;
     }
 
 
@@ -687,6 +695,7 @@ form {
         background-image: url("../img/workingman-blue_edited.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        opacity: 0.9;
 
     }
 
@@ -709,7 +718,7 @@ form {
         background-image: url("../img/mail-and-phone%20red%20final.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        opacity: 2;
+        opacity: 0.9;
 
     }
 
@@ -718,6 +727,7 @@ form {
         font-weight: 330;
         margin-left: 30px;
         margin-top: 30px
+        
 
     }
 

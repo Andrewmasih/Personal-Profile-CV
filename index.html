@@ -5,18 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">    
         <title>my professional profile</title>        
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="spares/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="spares/css/custom.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> <!--using bootstrap cdn link-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" type="text/css" /> <!--using font awasome cdn link, with lastest version -->
+        <link rel="stylesheet" type="text/css" href="spares/css/bootstrap.min.css"> <!--adding the stylesheet link for bootstrap-->
+        <link rel="stylesheet" type="text/css" href="spares/css/custom.css"> <!--adding the css stylesheet link-->
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid"> <!--utilising bootstrap grid layout, keeping the outter div container fluid,  to the edge of browser-->
 
 
-            <div class="row justify-content-right" id="row1">
-                <div class="col" id="nav">
+            <div class="row justify-content-right" id="row1"> <!--the first row to be a nav bar-->
+                <div class="col" id="nav"> <!--to take up the whole row of bootstrap grid-->
                 
 
                     <ul class="navbutton">
@@ -43,15 +43,15 @@
             </div>
 
             <div class="row" id="my-name">
-                <div class="col-12 col-lg-6">
-                    <h1 id="names">Andrew Masih</h1>        
+                <div class="col-12 col-lg-6"> <!--taking up the whole row in sm screen/lrg screen spilts in 2 parts-->
+                    <h1 id="names">Andrew Masih</h1>  <!--heading-->
                     <h2 id="title">Full-Stack Software Developer</h2> 
                 </div>
-                <div class="col-12 col-lg-6" id="below-the-nav"></div>
+                <div class="col-12 col-lg-6" id="below-the-nav"></div> <!--2nd div for use of image on the same row-->
             </div>
 
-            <div class="row" id="about-me">                
-                <div class="col-12 col-lg-6" id="thinking-man"></div>
+            <div class="row" id="about-me">   <!--heading fro the row-->             
+                <div class="col-12 col-lg-6" id="thinking-man"></div> <!--this div is for the image-->
 
                 <div class="col-12 col-lg-6" id="about-me-button">
                     <h3 class="about-me">About Me</h3>
@@ -62,19 +62,19 @@
                     Graduating from Coventry University Design School, and before that, an undergrad of Fine Art studying at Bedford College, homing and perfecting my artistic skills and creative abilities.<br>
 
                     The "Code Institute" is a "Software Engineering Development Acadamy"  and through there training programme, I have devloped a good foundation to design and develop unique software from the client and server-side perspective in HTML5, CSS3, and Bootstrap. The attempt to develop complete platforms that will be purpose-built, with the user experience being imperative to the core of the design, and for the user to have synergy in the functionality. I'm aiming to enhance "user experience" through the use of images, animation, navigation and interaction of the software. 
-                    </p>
+                    </p> <!--this paragraph will be on a scroll-->
                 </div>
             </div>
 
             <div class="row justify-content-lg-around" id="techskills-box">
                 <h3 class="tech-skills" id="skills-profile-button">Tech Skills</h3>
                 
-                <div class="col-12 col-lg-2" id="html5_css3">
+                <div class="col-12 col-lg-2" id="html5_css3"> <!--this div will spilt into 4 sections when viewed on sm screen-->
 
                     <p>html5/css3</p> <br/>
                     <p class="timeofex">2 years experience.</p> 
-                    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><i class="fa fa-html5"></i></a>
-                    <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><i class="fa fa-css3"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><i class="fab fa-html5"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><i class="fab fa-css3"></i></a> <!--using icons from font awesome-->
                     
                     
                 
@@ -84,7 +84,7 @@
 
                     <p>javascript</p> <br/>
                     <p class="timeofex">2 years experience.</p>
-                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"> <i class="fab fa-js-square"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"> <i class="fab fa-js-square"></i></a> <!--these button will take us to wiki website-->
 
                 </div>
 
@@ -92,7 +92,7 @@
 
                     <p>python</p> <br/>
                     <p class="timeofex">1.5 years experience.</p>
-                    <a href="https://en.wikipedia.org/wiki/Python" target="_blank"><i class="fab fa-python"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/Python" target="_blank"><i class="fab fa-python"></i></a> <!--font awesome icons used in the iclass tag-->
 
                 </div>
 
@@ -105,19 +105,19 @@
                 </div>
             </div>
 
-            <div class="row" id="portfolio-section">
+            <div class="row" id="portfolio-section"> <!--portfolio section, using 2 icons that link with websites, github and linkedin-->
                 <div class="col-sm-12">
                     <h3 class="portfolio" id="portfolio-button">Portfolio</h3>
-                    <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/andrew-masih-tech-recruiter/" target="_blank"><i class="fa fa-linkedin-in"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a> <!--i can add more links to relating to my projects on github-->
+                    <a href="https://www.linkedin.com/in/andrew-masih-tech-recruiter/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </div>           
             </div>
 
             <div class="row">
-                <div class="col-12 col-lg-6" id="work-experience-column">
+                <div class="col-12 col-lg-6" id="work-experience-column"> <!--work experience row-->
                     <h3 class="work-experience" id="work-experience-button">Work Experience</h3>                
                 
-                    <h4>Software Development Training</h4>
+                    <h4>Software Development Training</h4> <!--i did think about using a scroll for this scetion, but the info did fit into its space, i will add a scroll if more info is required-->
                 
                     <p>
                         Code Institute.
@@ -147,16 +147,16 @@
                     </p>
 
                 </div>
-                <div class="col-12 col-lg-6" id="working-men"></div>
+                <div class="col-12 col-lg-6" id="working-men"></div> <!--work experience image, can be viewed on lrg screens only-->
             
             </div>
 
-            <div class="row" id="contactme-section">
-                <div class="col-12 col-lg-6" id="telephone-box"></div>
+            <div class="row" id="contactme-section"> <!--contcat me row, single div on sm screens, and 2 divs on lrg screens-->
+                <div class="col-12 col-lg-6" id="telephone-box"></div> <!--image only, relating the image to the user to make contact with me.-->
 
                 <div class="col-12 col-lg-6">
                     <h3 class="contact-me" id="contact-me-button">Contact Me</h3>
-                    <form action="https//formdump.notconnectedyet.net/" method="POST">                    
+                    <form action="https//formdump.notconnectedyet.net/" method="POST">  <!--form structure, this is used for people to make contact with me and for them to message me-->               
                         <input type="text" id="name" name="name" placeholder="Name"> <br>
                         <input type="text" id="phone" name="phone" placeholder="Phone Number"> <br>
                         <input type="email" id="email" name="email" placeholder="Email"> <br>
@@ -167,13 +167,13 @@
             
             </div>
 
-            <div class="row" id="footer">
+            <div class="row" id="footer"> <!--bottom row, with social media links-->
                 <div class="col">
                     <ul class="social-networks">
-                        <li><a href="https://www.facebook.com" target="_blank"> <i class="fa fa-facebook-square"></i></a> </li>
-                        <li><a href="https://www.twitter.com" target="_blank"> <i class="fa fa-twitter-square"></i></a> </li>
-                        <li><a href="https://www.youtube.com" target="_blank"> <i class="fa fa-youtube-square"></i></a> </li>
-                        <li><a href="https://www.instagram.com" target="_blank"> <i class="fa fa-instagram"></i></a> </li>      
+                        <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a> </li> <!--socila media links, icons from font awesome-->
+                        <li><a href="https://www.twitter.com" target="_blank"> <i class="fab fa-twitter"></i></a> </li>
+                        <li><a href="https://www.youtube.com" target="_blank"> <i class="fab fa-youtube"></i></a> </li>
+                        <li><a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i></a> </li>      
                         <li id="copyright"> copyright &copy; 2020 Andrew Masih</li>
                     </ul> 
                     
