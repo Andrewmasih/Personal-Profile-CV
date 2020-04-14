@@ -2,45 +2,34 @@
 
 
 #row1 {    
-    width: 33%;
+    width: 175px;
     float: right;
 }
 
 
-
 #nav {   
-    background-color: rgb(255, 255, 255, 0.4);  
+    background-color: rgba(14, 13, 13, 0.3);  
     position: fixed;
-    z-index: 105; 
-   
+    z-index: 105;    
 }
 
-
-
 #nav a {    
-    color: rgb(116, 115, 115);
+    color: white;
     font-size: 10px;
     font-weight: 400;
-    letter-spacing:3px; 
-  
-}    
-
+    letter-spacing:3px;   
+} 
 
 
 #nav li {    
-    list-style: none;
-
-    
+    list-style: none;   
 }
 
 
 .navbutton {
     padding-left: 2px;
     margin-top: 20px;
-    
-
 }
-
 
 
 #names {
@@ -48,10 +37,8 @@
     padding-top: 145px;
     margin-left: 40px;
     color: rgb(214, 142, 7);
-    font-weight: 325;
-    
-}   
-
+    font-weight: 325;    
+}
 
 
 #title {    
@@ -60,10 +47,7 @@
     color: rgb(214, 142, 7);
     font-weight: 315;
     margin-bottom: 100px;
-
 }
-
-
 
 
 
@@ -72,11 +56,8 @@
     height: 225px;
     background-image: url("../img/londonbridge_sunset.png");
     background-repeat: no-repeat;  
-    background-color: rgb(255, 255, 255);
     background-size: 100% 100%;
-    opacity: 0.8;
-
-    
+      
 }
 
 
@@ -85,44 +66,32 @@
 
 .about-me {
     margin-left: 30px;
-    color: rgb(214, 142, 7);
+    color: rgb(5, 5, 153);
     margin-top: 30px;
     margin-bottom: 45px;
     font-weight: 330;
-    
-
 }
 
 
 #overflow-text {
     height: 300px;
     overflow-y: scroll;
-    color: rgb(218, 167, 73);
+    color: rgb(136, 136, 248);
     font-weight: 200;
     margin-left: 30px;
     margin-right: 30px;
-
-
 }
 
 
-
-
-
-
-#techskills-box {
-    
+#techskills-box {    
     background-color: white;
     height: 900px;
-    padding-bottom: 45px;
-      
+    padding-bottom: 45px;      
 }    
 
     
-#techskills-box p {
-    
+#techskills-box p {    
     font-weight: 200;
-
 }
 
 #skills-profile-button {
@@ -130,32 +99,15 @@
     margin-left: 30px;
     padding-top: 30px;
     font-weight: 330;
-}
+}    
 
-/*
-
-.col-lg-2 {
-    background-color: white;
-    height: 100px;
-    width: 100px;
-    margin-top: 50px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 20px;
-    
-}
-
-*/
 
 #html5_css3 {
     background-color: rgb(245, 241, 241);
     text-transform: uppercase;
     text-align: center;
     padding-top: 20px;
-    height:150px;
-   
-   
-    
+    height:150px;    
 }
 
 
@@ -165,9 +117,8 @@
     text-align: center;
     padding-top: 20px;
     height:150px;
-    
-
 }
+
 
 #python {
     background-color: rgb(245, 241, 241);
@@ -175,10 +126,6 @@
     text-align: center;
     padding-top: 20px;
     height:150px;
-    
-    
-
-
 }
 
 
@@ -188,12 +135,33 @@
     text-align: center;
     padding-top: 20px;
     height:150px;
+}
 
+.html5 {
+    font-size: 30px;
+    color:  rgb(68, 67, 67);
+}
+
+.css {
+    font-size: 30px;
+    color: rgb(68, 67, 67);
+}
+
+.js {
+    font-size: 30px;
+    color: rgb(68, 67, 67);
 
 }
 
+.python {
+    font-size: 30px;
+    color: rgb(68, 67, 67);
+}
 
-
+.sql {
+    font-size: 30px;
+    color: rgb(68, 67, 67);
+}
 
 
 .timeofex {
@@ -205,7 +173,7 @@
 #portfolio-section {
     background-color: rgb(61, 61, 87);
     height: 150px;
-
+    padding-right: 80px;
 }
 
 
@@ -216,26 +184,59 @@
     height: 125px;
     padding-top: 30px;
     font-weight: 330;
+}
 
+.all-logos {
+    text-align: center;
 }
 
 
-fa fa-github {
-    color: red;
-
+.github {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 90px;
+   
 }
 
-fa fa-linkedin-in{
-    color: green; 
 
-
+.github1 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 250px;
+    bottom: 90px;
+   
 }
+
+
+.github2 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 300px;
+    bottom: 90px;
+    
+}
+
+
+
+.linkedin {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 350px;
+    bottom: 90px;
+   
+}
+
 
 #work-experience-column {
     background-color: white;
     height: 450px;
-
 }
+
 
 .work-experience {
     color: rgb(214, 142, 7);
@@ -243,15 +244,19 @@ fa fa-linkedin-in{
     padding-left: 30px;
     margin-bottom: 30px;
     font-weight: 330;
-
 } 
+
+.workexscroll {
+    padding-left: 45px;
+}
+
 
 #work-experience-column p {
     font-weight: 200; 
     font-size: 15px;
     padding-left: 60px;
     color: rgb(214, 142, 7);
-
+    width: auto;
 }
 
 
@@ -262,36 +267,37 @@ fa fa-linkedin-in{
     font-weight: 200;
     padding-left: 60px;
     padding-top: 7.5px;
-
+    width: auto;
 }
+
 
 
 #contactme-section {
         
-    height: 450px;
-    background-image: url("../img/mail-and-phone%20red%20final.jpg");
+    height: 450px;    
+    background-image: url("../img/mail-and-phone%20blacked%20out.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    opacity: 0.7;
-    z-index: 150;
-    
-   
+    z-index: 150;   
 }
 
 
 .contact-me {
     color: white;
-    font-weight: 500;
+    font-weight: 330;
     margin-left: 30px;
-    margin-top: 30px
-    text-shadow: 0px 0px 10px #000000;
+    padding-top: 30px;
+    
+    
+}
 
+.contact {
+    padding-bottom: 100px;
 }
 
 
-
 #name {
-    width: 250px;  
+    width: 285px;  
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 2px;
@@ -299,117 +305,171 @@ fa fa-linkedin-in{
     padding: 12px 20px 12px 40px;
     transition: width 0.4s ease-in-out;
     z-index: 96;
-
 }
+
 
 #name:focus {
     width: 500px;
-    background-color: rgb(229, 229, 240);
-  
+    background-color: rgb(229, 229, 240);  
 }
 
+
 #phone {
-    width: 250px;  
+    width: 285px;  
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 2px;
     font-size: 16px;   
     padding: 12px 20px 12px 40px;
     transition: width 0.4s ease-in-out;
-
 }
+
 
 #phone:focus {
     width: 500px;
     background-color: rgb(229, 229, 240);
-
 }
 
 
 #email {
-    width: 250px;  
+    width: 285px;  
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 2px;
     font-size: 16px;   
     padding: 12px 20px 12px 40px;
     transition: width 0.4s ease-in-out;
+}  
 
-}   
 
 #email:focus {
     width: 500px;
     background-color: rgb(229, 229, 240);
-
 }
 
 
 #message {
-    width: 250px;  
+    width: 285px;  
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 2px;
     font-size: 16px;  
     padding: 12px 20px 12px 40px;
     transition: width 0.4s ease-in-out;
-
 }
 
 #message:focus {
     width: 500px;
     background-color: rgb(229, 229, 240);
     height: 80px;
-
 }
+
 
 input {
     color: blue;
     margin-top: 10px;
     z-index: 108;
-
 }   
 
 
 form {
-    margin-left: 90px;
+    margin-left: 150px;
     margin-top: 60px;
-    z-index: 105;
-    
+    z-index: 105;   
 }   
 
 
 #footer {
     background-color: #ffffff;
     height: 20px;
-
 }
+
 
 .social-networks {
     text-align: center;
-    padding-top: 30px;
-   
+    padding-top: 30px; 
+    padding-right: 100px;  
 }
 
 .social-networks li {
     display: inline;
     margin-left:60px;
-    font-size: 20px;
-  
-
-
+    font-size: 33px;
 }
 
 
 #copyright {
     float: right;
     color: rgb(214, 142, 7);
-    font-size: 10px;    
+    font-size: 10px;   
+}
+
+
+@media screen and (max-width: 486px) {
+
+    .workexscroll {
+        overflow-y: scroll;
+        height: 300px;
+        padding-right: 25px;
+        margin-right: 30px;
+        
+        
+    }
+
 
 }
 
 
 
+@media screen and (max-width: 490px) {
 
+    form {
+        margin-left: 30px;
+        
+        
+    }
+
+
+
+    #name {
+        width: 200px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #phone {
+        width: 200px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #email {
+        width: 200px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #message {
+        width: 200px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #work-experience-column p {
+        padding-left: 10px;
+    }
+
+    #work-experience-column h4 {
+        padding-left: 10px;
+    }
+
+    #nav {
+        padding-right: 90px;
+    }
+
+
+
+}
 
 
 
@@ -423,63 +483,42 @@ form {
         height: 75px;        
         position: fixed;
         z-index: 200;
-
     }
-
-    
-    
-
 
    
     #nav {
-        background-color: white;
-        
-    }      
-
-    
+        background-color: white;        
+    }   
 
 
     #nav a {    
         font-size: 20px;
-        color: rgb(114, 175, 199);
-        font-weight: 100; 
-        
-
+        color: rgb(5, 5, 153);
+        font-weight: 100;
     }
 
     .navbutton {
         float: right;
-        margin-top: 20px;
-    
+        margin-top: 20px;    
     }
 
 
     #nav li {
         display: inline; 
         letter-spacing: 2px;
-        margin-right: 20px;
-        
-  
+        margin-right: 20px;  
     }
 
     a:hover{
         text-decoration: none;
         color: black;
     }
-    
-    
-    
-    
-
 
 
     #my-name {
         height: 450px;
-        background-color: rgb(255, 255, 255);
-    
-   
+        background-color: rgb(255, 255, 255);   
     }
-
 
 
     #below-the-nav {
@@ -488,11 +527,7 @@ form {
         background-size: 100% 120%;
         height: 450px;
         opacity: 0.9;
-
-    }
-
-
-     
+    }     
 
 
     #names {
@@ -501,9 +536,7 @@ form {
         margin-left: 40px;
         color: rgb(214, 142, 7);
         font-weight: 325;
-    }
-
-    
+    }    
 
 
     #title {    
@@ -511,9 +544,7 @@ form {
         margin-left: 40px;
         color: rgb(214, 142, 7);
         font-weight: 315;
-    }
-
-    
+    } 
 
 
 
@@ -530,10 +561,7 @@ form {
         margin-top: 30px;
         margin-bottom: 30px;
         font-weight: 330;
-
     }
-
-
 
 
     #thinking-man {    
@@ -544,10 +572,6 @@ form {
     }
 
 
-
-
-
-
     #overflow-text {
         height: 300px;
         overflow-y: scroll;
@@ -555,8 +579,6 @@ form {
         font-weight: 200;
         margin-left: 30px;
         margin-right: 30px;
-
-
     }
 
 
@@ -584,21 +606,18 @@ form {
         margin-left: 30px;
         padding-top: 30px;
         font-weight: 330;
-
     }
 
 
 
     .col-lg-2 {
-        background-color: white;
-        
+        background-color: white;        
         width: 100px;
         margin-top: 40px;
         text-transform: uppercase;
-        text-align: center;
-        
-    
+        text-align: center;    
     }
+
 
     #html5_css3 {
         background-color: white;
@@ -609,41 +628,29 @@ form {
     #javascript {
         background-color: white;
         height:125px; 
-
     }
 
     #python {
         background-color: white;
         height:125px; 
-    
-    
-
-
     }
 
 
     #sql {
         background-color: white;
         height:125px; 
-
-
     }
 
 
     .timeofex {
         font-size: 12.5px;
-        text-transform: capitalize;
-    
-    
-    
+        text-transform: capitalize;    
     }
-
 
 
     #portfolio-section {
         background-color: rgb(61, 61, 87);
         height: 150px;
-
     }
 
 
@@ -654,16 +661,15 @@ form {
         height: 125px;
         padding-top: 30px;
         font-weight: 330;
-
     }
 
-
+    
 
     #work-experience-column {
         background-color: white;
         height: 450px;
-
     }
+
 
     .work-experience {
         color: rgb(214, 142, 7);
@@ -671,7 +677,6 @@ form {
         padding-left: 30px;
         margin-bottom: 30px;
         font-weight: 330;
-
     } 
 
     #work-experience-column p {
@@ -679,7 +684,6 @@ form {
         font-size: 15px;
         padding-left: 60px;
         color: rgb(214, 142, 7);
-
     }
 
     #work-experience-column h4 {
@@ -688,7 +692,6 @@ form {
         font-weight: 200;
         padding-left: 60px;
         padding-top: 7.5px;
-
     }
 
     #working-men {
@@ -696,14 +699,12 @@ form {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         opacity: 0.9;
-
     }
 
 
     #contactme-section {
         background-color: white;
-        height: 450px;
-   
+        height: 450px;   
     }
 
 
@@ -719,22 +720,19 @@ form {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         opacity: 0.9;
-
     }
 
     .contact-me {
         color: rgb(5, 5, 153);
         font-weight: 330;
         margin-left: 30px;
-        margin-top: 30px
-        
-
+        margin-top: 30px;
     }
 
 
 
     #name {
-        width: 250px;  
+        width: 385px;  
         box-sizing: border-box;
         border: 2px solid #ccc;
         border-radius: 2px;
@@ -751,7 +749,7 @@ form {
     }
 
     #phone {
-        width: 250px;  
+        width: 385px;  
         box-sizing: border-box;
         border: 2px solid #ccc;
         border-radius: 2px;
@@ -769,7 +767,7 @@ form {
 
 
     #email {
-        width: 250px;  
+        width: 385px;  
         box-sizing: border-box;
         border: 2px solid #ccc;
         border-radius: 2px;
@@ -787,68 +785,57 @@ form {
 
 
     #message {
-        width: 250px;  
+        width: 385px;  
         box-sizing: border-box;
         border: 2px solid #ccc;
         border-radius: 2px;
         font-size: 16px;  
         padding: 12px 20px 12px 40px;
         transition: width 0.4s ease-in-out;
-
     }
 
     #message:focus {
         width: 500px;
         background-color: rgb(229, 229, 240);
         height: 80px;
-
     }
 
     input {
         color: blue;
         margin-top: 10px;
-
     }   
 
 
     form {
         margin-left: 90px;
-        margin-top: 60px;
-    
+        margin-top: 60px;    
     }   
 
 
     #footer {
         background-color: #ffffff;
         height: 20px;
-
     }
 
     .social-networks {
         text-align: center;
         padding-top: 30px;
-   
+         
     }
 
     .social-networks li {
         display: inline;
         margin-left:60px;
-        font-size: 20px;
-  
-
-
+        font-size: 33px;
+        
     }
 
 
     #copyright {
         float: right;
         color: rgb(214, 142, 7);
-        font-size: 10px;    
-
+        font-size: 10px;
     }
-    
-  
-
 
 
 }     
