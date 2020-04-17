@@ -92,6 +92,8 @@
     
 #techskills-box p {    
     font-weight: 200;
+    
+    margin-top: 3px;
 }
 
 #skills-profile-button {
@@ -99,14 +101,16 @@
     margin-left: 30px;
     padding-top: 30px;
     font-weight: 330;
-}    
+}   
+
+
 
 
 #html5_css3 {
     background-color: rgb(245, 241, 241);
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     height:150px;    
 }
 
@@ -115,7 +119,7 @@
     background-color: rgb(245, 241, 241);
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     height:150px;
 }
 
@@ -124,7 +128,7 @@
     background-color: rgb(245, 241, 241);
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     height:150px;
 }
 
@@ -133,7 +137,7 @@
     background-color: rgb(245, 241, 241);
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     height:150px;
 }
 
@@ -164,6 +168,13 @@
 }
 
 
+.progress-bar {
+    background-color:black;
+    color: black;  
+
+}
+
+
 .timeofex {
     font-size: 12.5px;
     text-transform: capitalize;
@@ -172,10 +183,12 @@
 
 #portfolio-section {
     background-color: rgb(61, 61, 87);
-    height: 150px;
+    height: 900px;
+    width: 120%;
     padding-right: 80px;
+    padding-bottom: 200px;    
+    
 }
-
 
 
 #portfolio-button {
@@ -186,50 +199,185 @@
     font-weight: 330;
 }
 
-.all-logos {
-    text-align: center;
+
+#git-hub {
+    background-color: rgb(245, 241, 241);
+    height: 150px;
+    margin-bottom: 35px;
 }
+
+
+#git-hub1 {    
+    background-color: rgb(245, 241, 241);
+    height: 150px;
+    margin-bottom: 35px;
+}
+
+
+#git-hub2 {
+    background-color: rgb(245, 241, 241);
+    height: 150px;
+    margin-bottom: 35px;
+}
+
+
+#linked-in {
+    background-color: rgb(245, 241, 241);
+    height: 150px;
+    margin-bottom: 35px;
+
+}
+
+
+#git-hub h5 {
+    position: relative;
+    left: 40px;
+    top: 12.5px;
+    font-weight: 450;
+}
+
+
+
+#git-hub1 h5 {
+    position: relative;
+    left: 40px;
+    top: 12.5px;
+    font-weight: 450;
+}
+
+
+#git-hub2 h5 {
+    position: relative;
+    left: 40px;
+    top: 12.5px;
+    font-weight: 450;
+}
+
+
+#linked-in h5 {
+    position: relative;
+    left: 40px;
+    top: 12.5px;
+    width: 20%;
+    font-weight: 450;
+}
+
 
 
 .github {
     font-size: 50px;
-    color: white;
+    color: rgb(61, 61, 87);
     position: relative;
-    left: 200px;
-    bottom: 90px;
-   
+    left: 230px;
+    top: 50px;
+
 }
 
 
 .github1 {
     font-size: 50px;
-    color: white;
+    color: rgb(61, 61, 87);
     position: relative;
-    left: 250px;
-    bottom: 90px;
+    left: 230px;
+    top: 50px;
    
 }
 
 
 .github2 {
     font-size: 50px;
-    color: white;
+    color:rgb(61, 61, 87);
     position: relative;
-    left: 300px;
-    bottom: 90px;
+    left: 230px;
+    top: 50px;
+        
+    
+}
+
+.linkedin {
+    font-size: 50px;
+    color: rgb(61, 61, 87);
+    position: relative;
+    left: 230px;
+    top: 50px;
     
 }
 
 
 
-.linkedin {
-    font-size: 50px;
-    color: white;
+#git-hub h6 {
     position: relative;
     left: 350px;
-    bottom: 90px;
-   
+    bottom: 55px;
+    font-weight: 430;
 }
+
+#git-hub1 h6 {
+    position: relative;
+    left: 350px;
+    bottom: 55px;
+    font-weight: 430;
+}
+
+#git-hub2 h6 {
+    position: relative;
+    left: 350px;
+    bottom: 55px;
+    font-weight: 430;
+
+}
+
+
+#linked-in h6 {
+    position: relative;
+    left: 350px;
+    bottom: 75px;
+    font-weight: 430;
+
+}
+
+
+
+
+#git-hub p {
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    width: 60%;
+    padding-right: 40px;
+    font-weight: 330;
+}
+
+#git-hub1 p {
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    width: 60%;
+    padding-right: 40px;
+    font-weight: 330;
+
+}
+
+#git-hub2 p {
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    width: 60%;
+    padding-right: 40px;
+    font-weight: 330;
+
+}
+
+#linked-in p {
+    position: relative;
+    left: 350px;
+    bottom: 70px;
+    width: 60%;
+    padding-right: 40px;
+    font-weight: 330;
+
+}
+
 
 
 #work-experience-column {
@@ -468,6 +616,8 @@ form {
     }
 
 
+    
+
 
 }
 
@@ -594,7 +744,7 @@ form {
 
 
     #techskills-box p {
-        margin-bottom: auto;
+        margin-bottom: 7px;
         font-weight: 200;
     }
 
@@ -609,6 +759,11 @@ form {
     }
 
 
+    .progress {
+        margin-bottom: 7px;
+    }
+
+    /*
 
     .col-lg-2 {
         background-color: white;        
@@ -618,10 +773,12 @@ form {
         text-align: center;    
     }
 
+    */
 
     #html5_css3 {
         background-color: white;
-        height:125px;   
+        height:125px; 
+         
     }
 
 
@@ -650,17 +807,200 @@ form {
 
     #portfolio-section {
         background-color: rgb(61, 61, 87);
-        height: 150px;
-    }
+        height: 250px;
+        padding-top: 17.5px;
+        padding-right: 250px;
+        
+    }   
 
 
 
     #portfolio-button {
         color: #ffffff;
-        padding-left: 30px;
-        height: 125px;
+        padding-left: 30px;        
         padding-top: 30px;
         font-weight: 330;
+    }
+
+
+    #git-hub {
+        background-color: rgb(245, 241, 241);
+        height: 125px;
+        margin-bottom: 35px;
+       
+        
+    }
+
+
+    #git-hub1 {    
+        background-color: rgb(245, 241, 241);
+        height: 125px;
+        margin-bottom: 35px;
+    }
+
+
+    #git-hub2 {
+        background-color: rgb(245, 241, 241);
+        height: 125px;
+        margin-bottom: 35px;
+    }
+
+
+    #linked-in {
+        background-color: rgb(245, 241, 241);
+        height: 125px;
+        margin-bottom: 35px;
+
+    }
+
+
+    #git-hub h5 {
+        position: relative;
+        left: 40px;
+        top: 12.5px;
+        font-weight: 450;
+    }
+
+
+
+    #git-hub1 h5 {
+        position: relative;
+        left: 40px;
+        top: 12.5px;
+        font-weight: 450;
+    }
+
+
+    #git-hub2 h5 {
+        position: relative;
+        left: 40px;
+        top: 12.5px;
+        font-weight: 450;
+    }
+
+
+    #linked-in h5 {
+        position: relative;
+        left: 40px;
+        top: 12.5px;
+        width: 20%;
+        font-weight: 450;
+    }
+
+
+
+    .github {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 50px;
+
+    }
+
+
+    .github1 {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 50px;
+   
+    }
+
+
+    .github2 {
+        font-size: 50px;
+        color:rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 50px;
+        
+    
+    }
+
+    .linkedin {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 50px;
+    
+    }
+
+
+
+    #git-hub h6 {
+        position: relative;
+        left: 350px;
+        bottom: 55px;
+        font-weight: 430;
+    }
+
+    #git-hub1 h6 {
+        position: relative;
+        left: 350px;
+        bottom: 55px;
+        font-weight: 430;
+    }
+
+    #git-hub2 h6 {
+        position: relative;
+        left: 350px;
+        bottom: 55px;
+        font-weight: 430;
+
+    }   
+
+
+    #linked-in h6 {
+        position: relative;
+        left: 350px;
+        bottom: 75px;
+        font-weight: 430;
+
+    }
+
+
+
+
+    #git-hub p {
+        position: relative;
+        left: 350px;
+        bottom: 50px;
+        width: 60%;
+        padding-right: 40px;
+        font-weight: 330;
+    }
+
+    #git-hub1 p {
+        position: relative;
+        left: 350px;
+        bottom: 50px;
+        width: 60%;
+        padding-right: 40px;
+        font-weight: 330;
+
+    }
+
+    #git-hub2 p {
+        position: relative;
+        left: 350px;
+        bottom: 50px;
+        width: 60%;
+        padding-right: 40px;
+        font-weight: 330;
+
+    }
+
+    #linked-in p {
+        position: relative;
+        left: 350px;
+        bottom: 70px;
+        width: 60%;
+        padding-right: 40px;
+        font-weight: 330;
+
     }
 
     
