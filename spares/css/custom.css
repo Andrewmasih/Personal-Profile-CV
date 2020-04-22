@@ -50,8 +50,6 @@
 }
 
 
-
-
 #below-the-nav {
     height: 225px;
     background-image: url("../img/londonbridge_sunset.png");
@@ -59,10 +57,6 @@
     background-size: 100% 100%;
       
 }
-
-
-
-
 
 .about-me {
     margin-left: 30px;
@@ -91,8 +85,7 @@
 
     
 #techskills-box p {    
-    font-weight: 200;
-    
+    font-weight: 200;    
     margin-top: 3px;
 }
 
@@ -102,8 +95,6 @@
     padding-top: 30px;
     font-weight: 330;
 }   
-
-
 
 
 #html5_css3 {
@@ -171,7 +162,6 @@
 .progress-bar {
     background-color:black;
     color: black;  
-
 }
 
 
@@ -183,10 +173,9 @@
 
 #portfolio-section {
     background-color: rgb(61, 61, 87);
-    height: 900px;
-    width: 120%;
+    height: 900px;    
     padding-right: 80px;
-    padding-bottom: 200px;    
+        
     
 }
 
@@ -257,7 +246,6 @@
 #linked-in h5 {
     position: relative;
     left: 40px;
-    top: 12.5px;
     width: 20%;
     font-weight: 450;
 }
@@ -344,7 +332,7 @@
     left: 350px;
     bottom: 50px;
     width: 60%;
-    padding-right: 40px;
+    padding-right: 60px;
     font-weight: 330;
 }
 
@@ -353,7 +341,7 @@
     left: 350px;
     bottom: 50px;
     width: 60%;
-    padding-right: 40px;
+    padding-right: 60px;
     font-weight: 330;
 
 }
@@ -363,7 +351,7 @@
     left: 350px;
     bottom: 50px;
     width: 60%;
-    padding-right: 40px;
+    padding-right: 60px;
     font-weight: 330;
 
 }
@@ -373,7 +361,7 @@
     left: 350px;
     bottom: 70px;
     width: 60%;
-    padding-right: 40px;
+    padding-right: 60px;
     font-weight: 330;
 
 }
@@ -736,7 +724,7 @@ form {
     #techskills-box {
         background-color: rgb(245, 241, 241);
         height: 250px;
-        padding-top: 17.5px;
+        padding-top: 65px;
         padding-right: 50px;    
     }
 
@@ -745,7 +733,9 @@ form {
 
     #techskills-box p {
         margin-bottom: 7px;
-        font-weight: 200;
+        font-weight: 400;
+        color:white;
+        
     }
 
 
@@ -776,25 +766,26 @@ form {
     */
 
     #html5_css3 {
-        background-color: white;
+        background-color: rgb(68, 67, 67);
         height:125px; 
+        
          
     }
 
 
     #javascript {
-        background-color: white;
+        background-color: rgb(68, 67, 67);
         height:125px; 
     }
 
     #python {
-        background-color: white;
+        background-color: rgb(68, 67, 67);
         height:125px; 
     }
 
 
     #sql {
-        background-color: white;
+        background-color: rgb(68, 67, 67);
         height:125px; 
     }
 
@@ -804,12 +795,33 @@ form {
         text-transform: capitalize;    
     }
 
+    .html5 {
+        color: white;
+    }
+
+    .css {
+        color: white;
+    }
+
+    .js {
+        color: white;
+    }
+
+    .python {
+        color: white;
+    }
+
+    .sql {
+        color: white;
+    }
+
+
 
     #portfolio-section {
         background-color: rgb(61, 61, 87);
-        height: 250px;
-        padding-top: 17.5px;
-        padding-right: 250px;
+        height: 375px;
+        padding-top: 60px;
+        padding-right: 50px;          
         
     }   
 
@@ -819,190 +831,217 @@ form {
         color: #ffffff;
         padding-left: 30px;        
         padding-top: 30px;
+        padding-right: 20px;
         font-weight: 330;
+        
     }
 
+    
 
     #git-hub {
-        background-color: rgb(245, 241, 241);
-        height: 125px;
-        margin-bottom: 35px;
-       
+        height: 250px;      
         
     }
 
 
+
     #git-hub1 {    
-        background-color: rgb(245, 241, 241);
-        height: 125px;
-        margin-bottom: 35px;
+       height: 250px;
+        
     }
 
 
-    #git-hub2 {
-        background-color: rgb(245, 241, 241);
-        height: 125px;
-        margin-bottom: 35px;
+    #git-hub2 {        
+        height: 250px;        
     }
 
 
-    #linked-in {
-        background-color: rgb(245, 241, 241);
-        height: 125px;
-        margin-bottom: 35px;
+    #linked-in {       
+        height: 250px;     
+
+    }   
+
+
+    #portfolio-section, h5 {
+        color: rgb(61, 61, 87);
+        
+        
+
+    }
+
+    #portfolio-section h6 {
+        color:  rgb(61, 61, 87);
 
     }
 
 
-    #git-hub h5 {
-        position: relative;
-        left: 40px;
-        top: 12.5px;
-        font-weight: 450;
+    #portfolio-section p {
+        color: rgb(61, 61, 87);
+        
+
     }
-
-
-
-    #git-hub1 h5 {
-        position: relative;
-        left: 40px;
-        top: 12.5px;
-        font-weight: 450;
-    }
-
-
-    #git-hub2 h5 {
-        position: relative;
-        left: 40px;
-        top: 12.5px;
-        font-weight: 450;
-    }
-
-
-    #linked-in h5 {
-        position: relative;
-        left: 40px;
-        top: 12.5px;
-        width: 20%;
-        font-weight: 450;
-    }
-
+    
 
 
     .github {
-        font-size: 50px;
+        font-size: 35px;
         color: rgb(61, 61, 87);
         position: relative;
-        left: 230px;
-        top: 50px;
+        left: 100px;
+        top: 40px;
+        
 
     }
 
 
+    
+
     .github1 {
-        font-size: 50px;
+        font-size: 35px;
         color: rgb(61, 61, 87);
         position: relative;
-        left: 230px;
-        top: 50px;
+        left: 100px;
+        top: 40px;
    
     }
 
 
     .github2 {
-        font-size: 50px;
-        color:rgb(61, 61, 87);
+        font-size: 35px;
+        color: rgb(61, 61, 87);
         position: relative;
-        left: 230px;
-        top: 50px;
+        left: 100px;
+        top: 40px;
         
     
     }
 
     .linkedin {
-        font-size: 50px;
+        font-size: 35px;
         color: rgb(61, 61, 87);
         position: relative;
-        left: 230px;
-        top: 50px;
+        left: 100px;
+        top: 40px;
+        
     
     }
 
+    
 
+    #git-hub h5 {
+        font-weight: 450;
+        position: relative;        
+        top: -30px;
+        left: 5px;
+        
+        
+    }
+    
+    
 
-    #git-hub h6 {
-        position: relative;
-        left: 350px;
-        bottom: 55px;
-        font-weight: 430;
+    #git-hub1 h5 {
+        font-weight: 450;
+        position: relative;        
+        top: -30px;
+        left: 5px;
     }
 
-    #git-hub1 h6 {
+
+    #git-hub2 h5 {
+        font-weight: 450;
         position: relative;
-        left: 350px;
-        bottom: 55px;
-        font-weight: 430;
+        top: -30px;
+        left: 5px;
+    }
+
+
+    #linked-in h5 {
+        font-weight: 450;
+        position: relative;        
+        top: -30px;
+        left: 5px;        
+    }  
+
+    
+    
+
+    #git-hub h6 {
+        font-weight: 200;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        font-size: 15px;        
+    }    
+
+    
+
+    #git-hub1 h6 {
+        font-weight: 200;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        font-size: 15px;
     }
 
     #git-hub2 h6 {
+        font-weight: 200;
         position: relative;
-        left: 350px;
-        bottom: 55px;
-        font-weight: 430;
-
+        left: 5px;                                      
+        top: 5px;
+        font-size: 15px;
     }   
 
 
     #linked-in h6 {
+        font-weight: 200;
         position: relative;
-        left: 350px;
-        bottom: 75px;
-        font-weight: 430;
-
+        left: 5px;
+        top: -20px;
+        font-size: 15px;
     }
 
-
-
+    
+    
 
     #git-hub p {
         position: relative;
-        left: 350px;
-        bottom: 50px;
-        width: 60%;
-        padding-right: 40px;
-        font-weight: 330;
+        left: 5px;
+        top: 0px;
+        font-size: 10px;
+        display: inline;
+        
     }
+
+    
 
     #git-hub1 p {
         position: relative;
-        left: 350px;
-        bottom: 50px;
-        width: 60%;
-        padding-right: 40px;
-        font-weight: 330;
+        left: 5px;
+        top: 0px;
+        font-size: 10px;
+        display: inline;
 
     }
 
     #git-hub2 p {
         position: relative;
-        left: 350px;
-        bottom: 50px;
-        width: 60%;
-        padding-right: 40px;
-        font-weight: 330;
+        left: 5px;
+        top: 0px;
+        font-size: 10px;
+        display: inline;
 
     }
 
     #linked-in p {
         position: relative;
-        left: 350px;
-        bottom: 70px;
-        width: 60%;
-        padding-right: 40px;
-        font-weight: 330;
+        left: 5px;
+        top: -30px;
+        font-size: 10px;
+        display: inline;
 
     }
 
+    
     
 
     #work-experience-column {
