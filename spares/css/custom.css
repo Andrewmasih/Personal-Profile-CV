@@ -174,7 +174,7 @@
 #portfolio-section {
     background-color: rgb(61, 61, 87);
     height: 900px;    
-    padding-right: 80px;
+    
         
     
 }
@@ -186,6 +186,7 @@
     height: 125px;
     padding-top: 30px;
     font-weight: 330;
+
 }
 
 
@@ -541,6 +542,7 @@ form {
 }
 
 
+
 @media screen and (max-width: 486px) {
 
     .workexscroll {
@@ -559,9 +561,155 @@ form {
 
 @media screen and (max-width: 490px) {
 
-    form {
-        margin-left: 30px;
+    .github {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 20px;
+
+    }
+
+
+    .github1 {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 20px;
+   
+    }
+
+
+    .github2 {
+        font-size: 50px;
+        color:rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 20px;
         
+    
+    }
+
+    .linkedin {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 230px;
+        top: 20px;
+    
+    } 
+    
+    
+    
+    #git-hub h5 {
+        position: relative;
+        top: -30px;
+        left: 20px;
+        font-weight: 450;
+    }
+
+
+
+    #git-hub1 h5 {
+        position: relative;
+        top: -30px;
+        left: 20px;
+        font-weight: 450;
+    }
+
+
+    #git-hub2 h5 {
+        position: relative;
+        top: -30px;
+        left: 20px;
+        font-weight: 450;
+    }
+
+
+    #linked-in h5 {
+        position: relative;
+        top: -30px;
+        left: 20px;
+        font-weight: 450;
+    }
+
+
+    #git-hub h6 {
+        position: relative;
+        left: 20px;
+        bottom: 5px;
+        font-weight: 430;
+    }
+
+    
+
+    #git-hub1 h6 {
+        position: relative;
+        left: 20px;
+        bottom: 5px;
+        font-weight: 430;
+    }
+
+    #git-hub2 h6 {
+        position: relative;
+        left: 20px;
+        bottom: 5px;
+        font-weight: 430;
+
+    }
+
+
+    #linked-in h6 {
+        position: relative;
+        left: 20px;
+        bottom: 30px;
+        font-weight: 430;
+
+    }
+
+
+    #git-hub p {
+        position: relative;
+        left: 5px;
+        top: -10px;
+        font-size: 10px;
+        display: inline;
+                
+    }
+
+
+     #git-hub1 p {
+        position: relative;
+        left: 5px;
+        top: -10px;
+        font-size: 10px;
+        display: inline;
+
+    }
+
+    #git-hub2 p {
+        position: relative;
+        left: 5px;
+        top: -10px;
+        font-size: 10px;
+        display: inline;
+
+    }
+
+    #linked-in p {
+        position: relative;
+        left: 5px;
+        bottom: 40px;
+        font-size: 10px;
+        display: inline;
+    
+    }      
+ 
+    
+    
+    form {
+        margin-left: 30px;       
         
     }
 
@@ -601,16 +749,11 @@ form {
 
     #nav {
         padding-right: 90px;
-    }
 
-
-    
+    }   
 
 
 }
-
-
-
 
 
 
@@ -753,22 +896,11 @@ form {
         margin-bottom: 7px;
     }
 
-    /*
-
-    .col-lg-2 {
-        background-color: white;        
-        width: 100px;
-        margin-top: 40px;
-        text-transform: uppercase;
-        text-align: center;    
-    }
-
-    */
+    
 
     #html5_css3 {
         background-color: rgb(68, 67, 67);
-        height:125px; 
-        
+        height:125px;         
          
     }
 
@@ -777,6 +909,7 @@ form {
         background-color: rgb(68, 67, 67);
         height:125px; 
     }
+
 
     #python {
         background-color: rgb(68, 67, 67);
@@ -863,8 +996,7 @@ form {
 
 
     #portfolio-section, h5 {
-        color: rgb(61, 61, 87);
-        
+        color: rgb(61, 61, 87);       
         
 
     }
@@ -876,8 +1008,7 @@ form {
 
 
     #portfolio-section p {
-        color: rgb(61, 61, 87);
-        
+        color: rgb(61, 61, 87);        
 
     }
     
@@ -888,8 +1019,7 @@ form {
         color: rgb(61, 61, 87);
         position: relative;
         left: 100px;
-        top: 40px;
-        
+        top: 40px;       
 
     }
 
@@ -902,7 +1032,7 @@ form {
         position: relative;
         left: 100px;
         top: 40px;
-   
+
     }
 
 
@@ -911,8 +1041,7 @@ form {
         color: rgb(61, 61, 87);
         position: relative;
         left: 100px;
-        top: 40px;
-        
+        top: 40px;      
     
     }
 
@@ -921,8 +1050,7 @@ form {
         color: rgb(61, 61, 87);
         position: relative;
         left: 100px;
-        top: 40px;
-        
+        top: 40px;       
     
     }
 
@@ -1218,6 +1346,124 @@ form {
 
 
 }     
+
+
+@media screen and (min-width: 1139px) {
+
+    
+
+    .github {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 120px;       
+
+    }
+
+
+    .github1 {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 120px;      
+   
+    }
+
+
+    .github2 {
+        font-size: 50px;
+        color:rgb(61, 61, 87);
+        position: relative;
+        left: 120px;             
+    
+    }
+
+    .linkedin {
+        font-size: 50px;
+        color: rgb(61, 61, 87);
+        position: relative;
+        left: 120px;       
+    
+    }    
+
+
+    
+    #git-hub h6 {
+        font-weight: 200;
+        position: relative;
+        left: 5px;
+        top: 20px;
+        font-size: 15px;        
+    }    
+
+    
+
+    #git-hub1 h6 {
+        font-weight: 200;
+        position: relative;
+        left: 5px;
+        top: 20px;
+        font-size: 15px;
+    }
+
+    #git-hub2 h6 {
+        font-weight: 200;
+        position: relative;
+        left: 5px;                                      
+        top: 20px;
+        font-size: 15px;
+    }   
+
+
+    #linked-in h6 {
+        font-weight: 200;
+        position: relative;
+        left: 5px;
+        top: -5px;
+        font-size: 15px;
+    }
+      
+    
+    
+    #git-hub p {
+        position: relative;
+        left: 5px;
+        top: 25px;
+        font-size: 10px;
+        display: inline;
+                
+    }
+
+
+     #git-hub1 p {
+        position: relative;
+        left: 5px;
+        top: 25px;
+        font-size: 10px;
+        display: inline;
+
+    }
+
+    #git-hub2 p {
+        position: relative;
+        left: 5px;
+        top: 25px;
+        font-size: 10px;
+        display: inline;
+
+    }
+
+    #linked-in p {
+        position: relative;
+        left: 5px;
+        top: -5px;
+        font-size: 10px;
+        display: inline;
+
+    }
+
+
+}
 
 
 
