@@ -52,7 +52,7 @@
 
 #below-the-nav {
     height: 225px;
-    background-image: url("../img/londonbridge_sunset.png");
+    background-image: url("../css/img/londonbridge_sunset.png");
     background-repeat: no-repeat;  
     background-size: 100% 100%;
       
@@ -412,7 +412,7 @@
 #contactme-section {
         
     height: 450px;    
-    background-image: url("../img/mail-and-phone%20blacked%20out.png");
+    background-image: url("../css/img/mail-and-phone%20blacked%20out.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 150;   
@@ -803,7 +803,7 @@ form {
 
 
     #below-the-nav {
-        background-image: url("../img/londoncity-birdseye-view_edited3.jpg");
+        background-image: url("../css/img/londoncity-birdseye-view_edited3.jpg");
         background-repeat: no-repeat;
         background-size: 100% 120%;
         height: 450px;
@@ -846,7 +846,7 @@ form {
 
 
     #thinking-man {    
-        background-image: url("../img/thinking-man-768x508.jpg");
+        background-image: url("../css/img/thinking-man-768x508.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         opacity: 0.9;
@@ -1202,7 +1202,7 @@ form {
     }
 
     #working-men {
-        background-image: url("../img/workingman-blue_edited.jpg");
+        background-image: url("../css/img/workingman-blue_edited.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         opacity: 0.9;
@@ -1223,7 +1223,7 @@ form {
 
 
     #telephone-box {
-        background-image: url("../img/mail-and-phone%20red%20final.jpg");
+        background-image: url("../css/img/mail-and-phone%20red%20final.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         opacity: 0.9;
