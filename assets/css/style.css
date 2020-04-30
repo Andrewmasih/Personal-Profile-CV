@@ -1321,7 +1321,8 @@ form {
 
     #footer {
         background-color: #ffffff;
-        height: 20px;
+        padding-top: 50px;
+            
     }
 
     .social-networks {
