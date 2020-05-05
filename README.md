@@ -76,22 +76,6 @@ used Figma software for illustrating the final design and structure.
 - Deployed - Hosted on Github Pages
 
 
-
-
-### Scroll Bar:
-For large chunks on information i have provided a scroll system for the user to read through the text at ease, without compromising other sections on the page.
-
-External Links or Anchors:
-The portfolio section i implimented the use of externak links to corresponding sites, here i have used icons that will takes the user to external sites that are relative to my profssional profile. 
-
-Form section:
-I have used a Form section for users to write to me, or email me ditectly. the boxes in the form section are animated and extend out when the user clicks or type within the boxes.
-
-Nav bar:
-A menu sits in the nav bar, its located on the side of the screen for small screens, and on the top of the page for lrg screens. The user can access the information they require immmedaitly. 
-The menu has buttons that bring up the choosen section they require to view.
-
-
 # Design and Layout
 
 The design has been developed for Mobile First approach. 
@@ -107,6 +91,19 @@ The information on the page is layout systematically, so the user is not bombare
 The design encourges the user to take time to absorb the info comfortably, the colours are kept muted and not so bright is a contrast to the white background which reflects the type/text in a clear fashion. 
 
 A menu is provided on the side of the screen for small screens, and on the top of the page for lrg screens so the user can access the information they require immmedaitly. 
+The menu has buttons that bring up the choosen section they require to view.
+
+### Scroll Bar:
+For large chunks on information i have provided a scroll system for the user to read through the text at ease, without compromising other sections on the page.
+
+### External Links or Anchors:
+The portfolio section i implimented the use of externak links to corresponding sites, here i have used icons that will takes the user to external sites that are relative to my profssional profile. 
+
+### Form section:
+I have used a Form section for users to write to me, or email me ditectly. the boxes in the form section are animated and extend out when the user clicks or type within the boxes.
+
+### Nav bar:
+A menu sits in the nav bar, its located on the side of the screen for small screens, and on the top of the page for lrg screens. The user can access the information they require immmedaitly. 
 The menu has buttons that bring up the choosen section they require to view.
 
 ## Design
@@ -234,7 +231,11 @@ During development the site is written in VS Code. It is run using Live Server p
 - BootStrap
 - Font Awesome
 - Google images
-- 
+- WC3 [The World Wide Web Consortium] (www.w3.org)
+- StackOverflow [get answers to your toughest coding questions] (https://stackoverflow.com/)
+- W3School [web developer site] (https://www.w3schools.com/)
+- validator.w3.org [mark up vaildator] (https://validator.w3.org/)
+
 
 
 ### Content
