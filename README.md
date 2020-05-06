@@ -177,6 +177,7 @@ Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
     320x480px scaled down to scale(0.219)
 
 - the site has also been tested on HP Pavilion Laptop. 
+- Friends and family have used the site without instuction, testing the navigation and links. 
 
 
 
@@ -235,6 +236,8 @@ During development the site is written in VS Code. It is run using Live Server p
 - StackOverflow [get answers to your toughest coding questions] (https://stackoverflow.com/)
 - W3School [web developer site] (https://www.w3schools.com/)
 - validator.w3.org [mark up vaildator] (https://validator.w3.org/)
+- Choose Licence [chose an open source licence for your website](https://choosealicense.com/)
+- Figma [used for wireframing] (www.figma.com)
 
 
 

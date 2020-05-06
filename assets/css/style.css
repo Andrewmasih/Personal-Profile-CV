@@ -54,7 +54,9 @@
     height: 225px;
     background-image: url("../css/img/londonbridge_sunset.png");
     background-repeat: no-repeat;  
-    background-size: 100% 100%;
+    background-size: cover;    
+    width: 100vw;
+    background-position: center;
       
 }
 
@@ -414,7 +416,9 @@
     height: 450px;    
     background-image: url("../css/img/mail-and-phone%20blacked%20out.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;    
+    width: 100vw;
+    background-position: center;
     z-index: 150;   
 }
 
@@ -805,7 +809,9 @@ form {
     #below-the-nav {
         background-image: url("../css/img/londoncity-birdseye-view_edited3.jpg");
         background-repeat: no-repeat;
-        background-size: 100% 120%;
+        background-size: cover;    
+        width: 100vw;
+        background-position: center;
         height: 450px;
         opacity: 0.9;
     }     
@@ -848,7 +854,9 @@ form {
     #thinking-man {    
         background-image: url("../css/img/thinking-man-768x508.jpg");
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;    
+        width: 100vw;
+        background-position: center;
         opacity: 0.9;
     }
 
@@ -1204,7 +1212,9 @@ form {
     #working-men {
         background-image: url("../css/img/workingman-blue_edited.jpg");
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;    
+        width: 100vw;
+        background-position: center;
         opacity: 0.9;
     }
 
@@ -1225,7 +1235,9 @@ form {
     #telephone-box {
         background-image: url("../css/img/mail-and-phone%20red%20final.jpg");
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;    
+        width: 100vw;
+        background-position: center;
         opacity: 0.9;
     }
 
@@ -1467,7 +1479,334 @@ form {
 }
 
 
+@media screen and (min-width: 2000px) {
 
+    #nav {        
+        height: 100px;        
+        
+
+    }
+
+    #nav a {
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin-right: 100px;
+    }
+
+
+    #my-name {
+        height: 650px;
+
+    }   
+
+    #names {
+        font-size: 60px;
+        margin-left: 200px;
+
+    } 
+
+    #title {
+        font-size: 40px;
+        margin-left: 200px;
+
+    }
+
+    .about-me {
+        margin-left: 60px;
+        margin-top: 60px;
+        font-size: 40px
+    }
+
+    #overflow-text {
+        font-size: 30px;
+        height: 450px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+
+    #skills-profile-button {
+        font-size: 40px;
+
+    }
+
+
+    #below-the-nav {        
+        height: 650px;
+
+    }    
+
+
+    #about-me {
+        height: 650px;
+        
+    }
+
+    #techskills-box {       
+        height: 250px;       
+
+    }  
+
+    .timeofex {
+        font-size: 15px;
+    }
+
+
+    #skills-profile-button {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+
+
+    #portfolio-section {        
+        height: 375px;
+    }  
+
+    #portfolio-button {
+        font-size: 40px;
+        padding-top: 0px;
+    }  
+
+    .github {
+        left: 230px;
+    }
+
+    .github1 {
+        left: 230px;
+    }
+
+    .github2 {
+        left: 230px;
+    }
+
+    .linkedin {
+        left: 230px;
+    }
+
+
+
+    #git-hub h5 {
+        font-size: 25px;
+    }
+
+
+    #git-hub1 h5 {
+        font-size: 25px;
+    }
+
+    #git-hub2 h5 {
+        font-size: 25px;
+    }
+
+    #linked-in h5 {
+        font-size: 25px;
+    }
+
+
+
+    #git-hub h6 {
+        font-size: 20px;
+    }
+
+
+    #git-hub1 h6 {
+        font-size: 20px;
+    }
+
+    #git-hub2 h6 {
+        font-size: 20px;
+    }
+
+    #linked-in h6 {
+        font-size: 20px;
+    }
+
+    #git-hub p {
+        font-size: 15px;
+    }
+
+
+    #git-hub1 p {
+        font-size: 15px;
+    }
+
+    #git-hub2 p {
+        font-size: 15px;
+    }
+
+    #linked-in p {
+        font-size: 15px;
+
+    }
+
+
+    #work-experience-column {       
+        height: 650px;
+
+    }
+
+    .work-experience {
+        font-size: 40px;
+        padding-top: 60px;
+        padding-left: 60px;
+
+    }
+
+
+    #work-experience-column h4 {
+        font-size: 30px;
+
+    }
+
+    #work-experience-column p {
+        font-size: 20px;
+    }
+
+    .workexscroll {
+        padding-left: 100px;
+
+    }
+
+
+    #contactme-section {        
+        height: 650px; 
+
+    }
+
+
+    .contact-me {
+        font-size: 40px;
+        margin-left: 60px;
+    }
+
+
+    form {
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+
+}    
+
+
+@media screen and (min-width: 3300px) {
+    #nav a {
+        letter-spacing: 10px;   
+        margin-right: 100px;
+
+    }
+
+    #names {
+        margin-left: 300px;
+
+    } 
+
+    #title {
+        margin-left: 300px;
+
+    }
+
+    .about-me {
+        margin-left: 100px
+    }
+
+
+
+    .workexscroll {
+        padding-left: 320px;
+        letter-spacing: 2px;
+    }
+
+    
+    .github {
+        left: 430px;
+    }
+
+    .github1 {
+        left: 430px;
+    }
+
+    .github2 {
+        left: 430px;
+    }
+
+    .linkedin {
+        left: 430px;
+    }
+
+    #git-hub h5 {
+        left: 30px;
+    }
+
+
+    #git-hub1 h5 {
+        left: 30px;
+    }
+
+    #git-hub2 h5 {
+        left: 30px;
+    }
+
+    #linked-in h5 {
+        left: 30px;
+    }
+
+    #git-hub h6 {
+        left: 30px;
+        font-weight: 400;
+    }
+
+
+    #git-hub1 h6 {
+        left: 30px;
+        font-weight: 400;
+    }
+
+    #git-hub2 h6 {
+        left: 30px;
+        font-weight: 400;
+    }
+
+    #linked-in h6 {
+        left: 30px;
+        font-weight: 400;
+    }
+
+    #git-hub p {
+        font-weight: 400;
+    }
+
+
+    #git-hub1 p {
+        font-weight: 400;
+    }
+
+    #git-hub2 p {
+        font-weight: 400;
+    }
+
+    #linked-in p {
+        font-weight: 400;
+
+    }
+
+    .work-experience {
+        padding-left: 100px;
+
+    }
+
+    .contact-me {
+        margin-left: 100px;
+    }
+
+    form {
+        margin-left: 500px;
+    }    
+
+
+
+}
 
   
  
