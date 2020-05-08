@@ -7,6 +7,8 @@ Software Development programme.
 
 ## You can check out the website from this link here! 
 
+the site is published at https://andrewmasih.github.io/Milestone-WebProject/
+
 # Project description
 
 this site was developed to get familier with coding in HTML and CSS, also 
@@ -197,6 +199,8 @@ Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
 
 ## The project is hosted on [GitHub Pages] ("https://github.com/Andrewmasih/Milestone-WebProject")
 
+### the site is published at https://andrewmasih.github.io/Milestone-WebProject/
+
 ### The process involved:
 - Host a git repository on GitHub. Explained [here](https://help.github.com/en/articles/create-a-repo).
 - The root folder contains README.md and index.html files
@@ -210,8 +214,6 @@ Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
 - Click 'Clone or download' and copy the code for http
 - Open your chosen IDE (gitpod, Cloud9, VS Code, etc.)
 - Open a terminal in your root directory
-- Type 'git clone ' followed by the code taken from github repository
-    - ```git clone https://8000-f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/
 - When this completes you have your own version of the website
     - Feel free to make any changes to it
 - The website can be run by opening one of the HTML files within a web browser
