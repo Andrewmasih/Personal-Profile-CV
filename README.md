@@ -15,7 +15,7 @@ Also this project gave me an opportunity to run through all the process
 that i have leanred form the development programme.
 from using a new IDE with Gitpod, then linking it to GitHub.
 
-### Users 
+# User Experience
 Expected users of the website include potential employers, potential clients, softawre developers and students of all kinds. 
 They come to the website with questions in need of answering.
 
@@ -27,25 +27,6 @@ They come to the website with questions in need of answering.
 5. Friends or family that are inteested in what i do and how. 
 
 
-
-# Technologies used
-
-This protect was written in 
-- HTML5, 
-- CSS3, 
-- BootStrap4,
-  -  Grid System - Columns and Rows
-  -  Column spacing
-- Responsive design - Mobile First    
-- GoogleFonts, 
-- FontAwesome, 
-- GitPod IDE,
-
-
-the project will be hosted on GitHub.
-
-
-
 ## Mockups
 The web app is a single page with different displays given for different functions:
 
@@ -54,9 +35,10 @@ used Figma software for illustrating the final design and structure.
 (https://www.figma.com/file/9lsdc5WuTbmREXJ5ZY2PtC/wireframe-for-milestone-project)
 
 
+
 # Features
 
-### Planned Features
+## Planned Features
 - Documentation - ReadMe File, Licence & Mockups
 
 - Dynamic images 
@@ -75,8 +57,9 @@ used Figma software for illustrating the final design and structure.
 - GitHub - Remote Repository
 - Deployed - Hosted on Github Pages
 
+## Existing Features
 
-# Design and Layout
+### Design and Layout
 
 The design has been developed for Mobile First approach. 
 
@@ -93,6 +76,8 @@ The design encourges the user to take time to absorb the info comfortably, the c
 A menu is provided on the side of the screen for small screens, and on the top of the page for lrg screens so the user can access the information they require immmedaitly. 
 The menu has buttons that bring up the choosen section they require to view.
 
+## Features left to implement
+
 ### Scroll Bar:
 For large chunks on information i have provided a scroll system for the user to read through the text at ease, without compromising other sections on the page.
 
@@ -106,7 +91,7 @@ I have used a Form section for users to write to me, or email me ditectly. the b
 A menu sits in the nav bar, its located on the side of the screen for small screens, and on the top of the page for lrg screens. The user can access the information they require immmedaitly. 
 The menu has buttons that bring up the choosen section they require to view.
 
-## Design
+### Design Colours
 
 - Colour scheme consists of complementary colours 
     - burnt orange rgb(214, 142, 7);
@@ -117,12 +102,12 @@ The menu has buttons that bring up the choosen section they require to view.
     - light gray rgb(229, 229, 240);  
     - offwhite rgb(245, 241, 241);
 
-## fonts
+### fonts
 - roboto font used throughout the website
 - font-family: 'Roboto', 'helvetica' sans-serif;
 
 
-## images
+### images
 The images are selected for been iconic in design and taken from "shuttershock" website:
     
     - london bridge,
@@ -155,12 +140,31 @@ The images are selected for been iconic in design and taken from "shuttershock" 
 - fixed nav bar
 
     
+# Technologies used
+
+To develop this project i used the following Technologies
+
+- HTML5,
+- CSS3,
+- BootStrap4,
+    - Grid System - Columns and Rows
+    - Column spacing
+    - Responsive design - Mobile First
+- GoogleFonts,
+- FontAwesome,
+- GitPod IDE,
+
+the project will be hosted on GitHub. 
 
 
-
-# Testing the site
+# Testing 
 
 The site was tested through a number of means. 
+
+to begin with I had looked into the visual side of testing, to make sure images and layout of the site was satifactory in working order and easly read.
+
+I also tested the buttons, links, navigation around the site and the contact page was in working oredr in different devices, from diffrernt smart phones, tablets, laptops, desktops, 
+
 - dev tools, responsive and specfic to Moto 4, Samsung S5, Samsung 7, 8, Pixel 2, 
 Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
 
@@ -176,37 +180,35 @@ Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
     -Mobile
     320x480px scaled down to scale(0.219)
 
-- the site has also been tested on HP Pavilion Laptop. 
+- the site has also been tested on HP Pavilion Laptop, HP Pavilion desktop, Samsung galaxy tablet, 
 - Friends and family have used the site without instuction, testing the navigation and links. 
 
 
+### Contact form:
 
-## License
-
-The project is shared for use with the [GNU General Public License v3]
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+1. Go to the "Contact Us" page
+2. Try to submit the empty form and verify that an error message about the required fields appears
+3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+4. Try to submit the form with all inputs valid and verify that a success message appears.
 
 
-## Deployment
 
-The project is hosted on [GitHub Pages] (https://8000-f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/)
+# Deployment
 
-The process involved:
+## The project is hosted on [GitHub Pages] ("https://github.com/Andrewmasih/Milestone-WebProject")
+
+### The process involved:
 - Host a git repository on GitHub. Explained [here](https://help.github.com/en/articles/create-a-repo).
 - The root folder contains README.md and index.html files
 - On GitHub repository settings page move to GitHub Pages section
 - Change source to master branch. (Or any desired branch)
 - Provided link will be your projects home (index) page.
  
-To deploy your own version of the website:
+### To deploy your own version of the website:
 - Have git installed
-- Visit the [repository](https://8000-f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/)
+- Visit the [repository][GitHub] ("https://github.com/Andrewmasih/Milestone-WebProject")
 - Click 'Clone or download' and copy the code for http
-- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open your chosen IDE (gitpod, Cloud9, VS Code, etc.)
 - Open a terminal in your root directory
 - Type 'git clone ' followed by the code taken from github repository
     - ```git clone https://8000-f3c5a7a2-27fb-4a25-ae3c-88d8cc7a0a56.ws-eu01.gitpod.io/
@@ -225,9 +227,9 @@ During development the site is written in VS Code. It is run using Live Server p
 
 
 
-## Credits
+# Credits
 
-- Haley Schafer (full-stack developer and tutor) (https://www.haleyschafer.com/)
+- Haley Schafer (full-stack developer and tutor) (https://www.haleyschafer.com/) milestone project was also an inspiration for my project.
 - Anna Gilhespy (full-stack developer and tutor)
 - BootStrap
 - Font Awesome
@@ -238,7 +240,8 @@ During development the site is written in VS Code. It is run using Live Server p
 - validator.w3.org [mark up vaildator] (https://validator.w3.org/)
 - Choose Licence [chose an open source licence for your website](https://choosealicense.com/)
 - Figma [used for wireframing] (www.figma.com)
-
+- Wikipedia [used as a source of information, linked to my icons in the "my skills" section] (https://en.wikipedia.org/wiki/HTML) 
+- [John O Sullivan](https://pattern-projects.github.io/oireachtas-ifd-project/) for taking parts of his README.md file for inspiration.
 
 
 ### Content

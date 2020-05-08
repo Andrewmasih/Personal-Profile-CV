@@ -1489,7 +1489,7 @@ form {
 
 /* media querys for larger screens, minor adjustments */ 
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1920px) {
 
     #nav {        
         height: 100px;        
