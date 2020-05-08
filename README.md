@@ -1,6 +1,6 @@
 # My very first web project
 
-## Welcome to my  very first webpage milestone project !
+## Welcome to my very first webpage milestone project!
 
 This website was built as a part of my learning material for CodeInsitute's
 Software Development programme.
@@ -11,29 +11,29 @@ the site is published at https://andrewmasih.github.io/Milestone-WebProject/
 
 # Project description
 
-this site was developed to get familier with coding in HTML and CSS, also 
-linking to other resourses as Google fonts, Bootstrap and Font awesome.
-Also this project gave me an opportunity to run through all the process 
-that i have leanred form the development programme.
+this site was developed to get familiar with coding in HTML and CSS, also 
+linking to other resources like Google fonts, Bootstrap and Font awesome.
+Also, this project gave me an opportunity to run through all the process that I have learned from the development programme.
 from using a new IDE with Gitpod, then linking it to GitHub.
 
 # User Experience
-Expected users of the website include potential employers, potential clients, softawre developers and students of all kinds. 
+Expected users of the website include potential employers, potential clients, software developers and students of all kinds. 
 They come to the website with questions in need of answering.
 
 ### User Stories
-1. for anyone who wants to know my professional profile, incuding my work experience, tech skills, soft skills, projects and references. 
+1. for anyone who wants to know my professional profile, including my work experience, tech skills, soft skills, projects and references. 
 2. A future Employer that is looking at my skills, experience and projects.  
 3. A client that could be interested in collaboration
-4. Software developer could be inteested in looking at the site.
-5. Friends or family that are inteested in what i do and how. 
+4. A software developer could be interested in looking at the site.
+5. Friends or family that are interested in what I do and how. 
 
 
 ## Mockups
 The web app is a single page with different displays given for different functions:
 
 # wireframing 
-used Figma software for illustrating the final design and structure. 
+
+Figma software was used for illustrating the final design and structure. 
 (https://www.figma.com/file/9lsdc5WuTbmREXJ5ZY2PtC/wireframe-for-milestone-project)
 
 
@@ -65,33 +65,34 @@ used Figma software for illustrating the final design and structure.
 
 The design has been developed for Mobile First approach. 
 
-The main focus on the design and layout was to be clear and simple, as information sometimes on a cv can be clustered, and overwelming for the reader,
-sometimes the readerr can be put off with the CV because of the amount of information been displayed with the space, the aim was to provide information reletive to my CV. 
-From top to bottom, left to right, the information on the site is simliar to how a tradition CV is layout.
+The main focus on the design and layout was to be clear and simple, as information sometimes on a cv can be clustered, and overwhelming for the reader,
+sometimes the reader can be put off with the CV because of the amount of information been displayed with space, the aim was to provide information relative to my CV. 
+From top to bottom, left to right, the information on the site is similar to how a tradition CV is a layout.
 
-I had designed the layout in a way that doesnt overload the reader/user with too much information as sometimes a tradtional cv can.
-in fact the results are that the page provides my professional info to the user with ease to read, the user is made to feel at ease/comfortable by the use of colors, layout, spacing, white space, text style and images. 
+I had designed the layout in a way that doesn't overload the reader/user with too much information as sometimes a traditional cv can.
+in fact, the results are that the page provides my professional info to the user with ease to read, the user is made to feel at ease/comfortable by the use of colors, layout, spacing, white space, text style and images. 
 
-The information on the page is layout systematically, so the user is not bombared with inforamtion that the user can skip over..
-The design encourges the user to take time to absorb the info comfortably, the colours are kept muted and not so bright is a contrast to the white background which reflects the type/text in a clear fashion. 
+The information on the page is layout systematically, so the user is not bombarded with information that the user can skip over.
+The design encourages the user to take time to absorb the info comfortably, the colours are kept muted and not so bright is a contrast to the white background which reflects the type/text in a clear fashion. 
 
-A menu is provided on the side of the screen for small screens, and on the top of the page for lrg screens so the user can access the information they require immmedaitly. 
-The menu has buttons that bring up the choosen section they require to view.
+A menu is provided on the side of the screen for small screens, and on the top of the page for large screens so the user can access the information they require 
+immediately. 
+The menu has buttons that bring up the chosen section they require to view.
 
 ## Features left to implement
 
 ### Scroll Bar:
-For large chunks on information i have provided a scroll system for the user to read through the text at ease, without compromising other sections on the page.
+For large chunks on the information, I have provided a scroll system for the user to read through the text at ease, without compromising other sections on the page.
 
 ### External Links or Anchors:
-The portfolio section i implimented the use of externak links to corresponding sites, here i have used icons that will takes the user to external sites that are relative to my profssional profile. 
+The portfolio section I implemented the use of external links to corresponding sites, here I have used icons that will take the user to external sites that are relative to my professional profile. 
 
 ### Form section:
-I have used a Form section for users to write to me, or email me ditectly. the boxes in the form section are animated and extend out when the user clicks or type within the boxes.
+I have used a Form section for users to write to me or email me directly. the boxes in the form section are animated and extend out when the user clicks or type within the boxes.
 
 ### Nav bar:
-A menu sits in the nav bar, its located on the side of the screen for small screens, and on the top of the page for lrg screens. The user can access the information they require immmedaitly. 
-The menu has buttons that bring up the choosen section they require to view.
+A menu sits in the navbar, its located on the side of the screen for small screens, and on the top of the page for large screens. The user can access the information they require immediately. 
+The menu has buttons that bring up the chosen section they require to view.
 
 ### Design Colours
 
@@ -110,13 +111,13 @@ The menu has buttons that bring up the choosen section they require to view.
 
 
 ### images
-The images are selected for been iconic in design and taken from "shuttershock" website:
+The images are selected for been iconic in design and taken from "Shutterstock" website:
     
-    - london bridge,
+    - London Bridge,
     - skyline of London city
 ‎    - the thinking man
     - the working team
-    - great britian design icon, the red telephone box
+    - Britain design icon, the red telephone box
 
 
 
@@ -125,26 +126,26 @@ The images are selected for been iconic in design and taken from "shuttershock" 
 - job title
 - location, place of stay is reflected in the image of London City.
 - about me
-- image that reflects a side of my personality within the subject of development.
-- tech skills - this shows the future employer/client my development skills and my experince using the Technologies
-- portfolio - i am adding to this as i grow my portfolio, however there is a link to my Github account, and Linkedin profile. 
-- work experience - this is a reflection on my current and prevoius employment, as this growns i will introduce a scroll systems to view the information better.
-- contact me.  - the user can conatct me by leaving there details and a message in the relevent fields provided. 
-- footer - this section has my socila media links so the user has more information about me and my profession. 
+- an image that reflects a side of my personality within the subject of development.
+- tech skills - this shows the future employer/client my development skills and my experience using the Technologies
+- portfolio - I am adding to this as I grow my portfolio, however, there is a link to my Github account, and Linkedin profile. 
+- work experience - this is a reflection on my current and previous employment, as this grows I will introduce a scroll system to view the information better.
+- contact me.  - the user can contact me by leaving their details and a message in the relevant fields provided. 
+- footer - this section has my social media links so the user has more information about me and my profession. 
 
 
 
-### ux elements
+### UX elements
 - user flow
 - animations
-- transistions
+- transitions
 - text shadows
-- fixed nav bar
+- fixed navbar
 
     
 # Technologies used
 
-To develop this project i used the following Technologies
+To develop this project I used the following Technologies
 
 - HTML5,
 - CSS3,
@@ -163,15 +164,15 @@ the project will be hosted on GitHub.
 
 The site was tested through a number of means. 
 
-to begin with I had looked into the visual side of testing, to make sure images and layout of the site was satifactory in working order and easly read.
+to begin with, I had looked into the visual side of testing, to make sure images and layout of the site was satisfactory in working order and easily read.
 
-I also tested the buttons, links, navigation around the site and the contact page was in working oredr in different devices, from diffrernt smart phones, tablets, laptops, desktops, 
+I also tested the buttons, links, navigation around the site and the contact page was in working order in different devices, from different smartphones, tablets, laptops, desktops, 
 
-- dev tools, responsive and specfic to Moto 4, Samsung S5, Samsung 7, 8, Pixel 2, 
+- dev tools, responsive and specific to Moto 4, Samsung S5, Samsung 7, 8, Pixel 2, 
 Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
 
-- Samsung7 and 8 handsets belong to me and tested horizontally and vertically view points.
-- tested my site on "i am responsivedesign" website, this checks how responsive the site is based on different devices, screensizes. 
+- Samsung7 and 8 handsets belong to me and tested horizontally and vertically viewpoints.
+- tested my site on "I am responsive design" website, this checks how responsive the site is based on different devices, screen sizes. 
     Viewports
     -Desktop
     1600x992px scaled down to scale(0.3181)
@@ -183,7 +184,7 @@ Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
     320x480px scaled down to scale(0.219)
 
 - the site has also been tested on HP Pavilion Laptop, HP Pavilion desktop, Samsung galaxy tablet, 
-- Friends and family have used the site without instuction, testing the navigation and links. 
+- Friends and family have used the site without instruction, testing the navigation and links. 
 
 
 ### Contact form:
@@ -204,7 +205,7 @@ Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
 ### The process involved:
 - Host a git repository on GitHub. Explained [here](https://help.github.com/en/articles/create-a-repo).
 - The root folder contains README.md and index.html files
-- On GitHub repository settings page move to GitHub Pages section
+- On GitHub, repository settings page move to GitHub Pages section
 - Change source to master branch. (Or any desired branch)
 - Provided link will be your projects home (index) page.
  
@@ -221,11 +222,11 @@ Pixel 2XL, iPhone 5SE, iPhone5, 6, 7, 8, 8plus, 10, iPad, iPad pro.
 - Your website with any made changes will appear
 - Saved changes to the website will appear here after refreshing the page
 
-The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged into the master when complete.
 
 It may take a moment for changes to appear on the hosted website.
 
-During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
+During development, the site is written in VS Code. It is run using Live Server plugin for VS Code.
 
 
 
@@ -240,14 +241,14 @@ During development the site is written in VS Code. It is run using Live Server p
 - StackOverflow [get answers to your toughest coding questions] (https://stackoverflow.com/)
 - W3School [web developer site] (https://www.w3schools.com/)
 - validator.w3.org [mark up vaildator] (https://validator.w3.org/)
-- Choose Licence [chose an open source licence for your website](https://choosealicense.com/)
+- Choose Licence [chose an open-source licence for your website](https://choosealicense.com/)
 - Figma [used for wireframing] (www.figma.com)
 - Wikipedia [used as a source of information, linked to my icons in the "my skills" section] (https://en.wikipedia.org/wiki/HTML) 
 - [John O Sullivan](https://pattern-projects.github.io/oireachtas-ifd-project/) for taking parts of his README.md file for inspiration.
 
 
 ### Content
-The text on the website has been soured from:   
+The text on the website has been sourced from:   
 - [Google Fonts](https://fonts.google.com/specimen/Roboto)
 - [Font Awesome] (https://fontawesome.com/icons?d=gallery)
 
@@ -264,9 +265,3 @@ Thank you to the following for inspiration, motivation and the direction I neede
 - Seun Owonikoko (student mentor)    @seun_mentor 
 - All Tutors
 - All support staff at Code Institute
-
-
-
-
-
-
