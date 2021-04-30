@@ -1,6 +1,6 @@
-# My very first web project
+# My Persoanl profile web project
 
-## Welcome to my very first webpage milestone project!
+## Welcome to my personal profile webpage project!
 
 This website was built as a part of my learning material for CodeInsitute's
 Software Development programme.
